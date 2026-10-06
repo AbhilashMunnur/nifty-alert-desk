@@ -197,7 +197,7 @@ function render(desk) {
   window.scrollTo(0, 0);
 }
 
-fetch("data/desk.json", { cache: "no-store" })
+fetch("data/desk.json?v=" + Date.now(), { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("missing desk");
     return response.json();
