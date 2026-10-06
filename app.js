@@ -176,7 +176,7 @@ function landing(desk) {
   ];
   return `
     <h1>Scan desk</h1>
-    <p class="lede">Newest reading at the top of each page. Updated ${desk.generated_at}.</p>
+    <p class="lede">Newest reading at the top of each page. A scan drops off after two days. Updated ${desk.generated_at}.</p>
     <nav class="tiles">
       ${tiles.map(([id, title, sub, extra]) => `
         <a class="tile ${extra}" href="#${id}"><strong>${title}</strong><span>${sub}</span></a>
