@@ -1,6 +1,99 @@
 {
-  "generated_at": "2026-10-07 10:30 IST",
+  "generated_at": "2026-10-07 10:32 IST",
   "nifty_oi": [
+    {
+      "day": "2026-10-07",
+      "clock": "10:30",
+      "saved_at": "2026-10-07 10:31:24",
+      "expiry": "2026-10-13",
+      "atm": "22,700",
+      "lot_size": 65,
+      "compared_to": "2026-10-07 10:17:09",
+      "totals": "This interval  CE BUY 0 / WRITE 0   PE BUY 0 / WRITE 20,181  (lots)",
+      "baseline": false,
+      "strikes": [
+        {
+          "label": "ITM2",
+          "strike": "22,600",
+          "call": {
+            "label": "SHORT COVER",
+            "lots": "-36,139",
+            "prem": "208.25",
+            "dprem": "+34.50"
+          },
+          "put": {
+            "label": "WRITE",
+            "lots": "+2,250",
+            "prem": "109.85",
+            "dprem": "-27.65"
+          }
+        },
+        {
+          "label": "ITM1",
+          "strike": "22,650",
+          "call": {
+            "label": "SHORT COVER",
+            "lots": "-10,759",
+            "prem": "177.80",
+            "dprem": "+30.45"
+          },
+          "put": {
+            "label": "WRITE",
+            "lots": "+9,903",
+            "prem": "129.80",
+            "dprem": "-30.90"
+          }
+        },
+        {
+          "label": "ATM",
+          "strike": "22,700",
+          "call": {
+            "label": "SHORT COVER",
+            "lots": "-1,070",
+            "prem": "150.30",
+            "dprem": "+27.20"
+          },
+          "put": {
+            "label": "WRITE",
+            "lots": "+8,028",
+            "prem": "152.20",
+            "dprem": "-34.95"
+          }
+        },
+        {
+          "label": "OTM1",
+          "strike": "22,750",
+          "call": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "126.25",
+            "dprem": null
+          },
+          "put": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "176.60",
+            "dprem": null
+          }
+        },
+        {
+          "label": "OTM2",
+          "strike": "22,800",
+          "call": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "103.25",
+            "dprem": null
+          },
+          "put": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "204.85",
+            "dprem": null
+          }
+        }
+      ]
+    },
     {
       "day": "2026-10-07",
       "clock": "10:15",
@@ -3165,6 +3258,99 @@
     }
   ],
   "sensex_oi": [
+    {
+      "day": "2026-10-07",
+      "clock": "10:30",
+      "saved_at": "2026-10-07 10:32:50",
+      "expiry": "2026-10-08",
+      "atm": "72,900",
+      "lot_size": 20,
+      "compared_to": "2026-10-07 10:17:59",
+      "totals": "This interval  CE BUY 6,322 / WRITE 0   PE BUY 0 / WRITE 86,256  (lots)",
+      "baseline": false,
+      "strikes": [
+        {
+          "label": "ITM2",
+          "strike": "72,700",
+          "call": {
+            "label": "SHORT COVER",
+            "lots": "-50,793",
+            "prem": "409.40",
+            "dprem": "+104.35"
+          },
+          "put": {
+            "label": "WRITE",
+            "lots": "+17,221",
+            "prem": "221.55",
+            "dprem": "-88.55"
+          }
+        },
+        {
+          "label": "ITM1",
+          "strike": "72,800",
+          "call": {
+            "label": "SHORT COVER",
+            "lots": "-12,818",
+            "prem": "350.75",
+            "dprem": "+92.65"
+          },
+          "put": {
+            "label": "WRITE",
+            "lots": "+42,840",
+            "prem": "262.95",
+            "dprem": "-98.75"
+          }
+        },
+        {
+          "label": "ATM",
+          "strike": "72,900",
+          "call": {
+            "label": "BUY",
+            "lots": "+6,322",
+            "prem": "298.10",
+            "dprem": "+83.25"
+          },
+          "put": {
+            "label": "WRITE",
+            "lots": "+26,195",
+            "prem": "309.45",
+            "dprem": "-108.20"
+          }
+        },
+        {
+          "label": "OTM1",
+          "strike": "73,000",
+          "call": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "249.40",
+            "dprem": null
+          },
+          "put": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "356.55",
+            "dprem": null
+          }
+        },
+        {
+          "label": "OTM2",
+          "strike": "73,100",
+          "call": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "206.05",
+            "dprem": null
+          },
+          "put": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "417.85",
+            "dprem": null
+          }
+        }
+      ]
+    },
     {
       "day": "2026-10-07",
       "clock": "10:15",
