@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-16 13:04 IST",
+  "generated_at": "2026-10-16 13:18 IST",
   "nifty_oi": [
     {
       "day": "2026-10-16",
       "clock": "13:00",
-      "saved_at": "2026-10-16 13:03:25",
+      "saved_at": "2026-10-16 13:14:46",
       "expiry": "2026-10-19",
       "atm": "23,100",
       "lot_size": 65,
       "compared_to": "2026-10-16 12:55:05",
-      "totals": "This interval  CE BUY 0 / WRITE 3,701   PE BUY 9,867 / WRITE 0  (lots)",
+      "totals": "This interval  CE BUY 0 / WRITE 15,296   PE BUY 5,109 / WRITE 0  (lots)",
       "baseline": false,
       "strikes": [
         {
@@ -18,13 +18,13 @@
           "call": {
             "label": "n/a",
             "lots": null,
-            "prem": "159.90",
+            "prem": "158.95",
             "dprem": null
           },
           "put": {
             "label": "n/a",
             "lots": null,
-            "prem": "62.50",
+            "prem": "60.00",
             "dprem": null
           }
         },
@@ -33,15 +33,15 @@
           "strike": "23,050",
           "call": {
             "label": "WRITE",
-            "lots": "+983",
-            "prem": "127.70",
-            "dprem": "-7.45"
+            "lots": "+1,709",
+            "prem": "126.20",
+            "dprem": "-8.95"
           },
           "put": {
             "label": "BUY",
-            "lots": "+9,565",
-            "prem": "79.85",
-            "dprem": "+6.60"
+            "lots": "+5,109",
+            "prem": "77.00",
+            "dprem": "+3.75"
           }
         },
         {
@@ -49,15 +49,15 @@
           "strike": "23,100",
           "call": {
             "label": "WRITE",
-            "lots": "+2,718",
-            "prem": "99.65",
-            "dprem": "-5.85"
+            "lots": "+13,587",
+            "prem": "97.85",
+            "dprem": "-7.65"
           },
           "put": {
             "label": "SHORT COVER",
-            "lots": "-3,339",
-            "prem": "101.20",
-            "dprem": "+7.70"
+            "lots": "-2,208",
+            "prem": "98.20",
+            "dprem": "+4.70"
           }
         },
         {
@@ -65,15 +65,15 @@
           "strike": "23,150",
           "call": {
             "label": "LONG EXIT",
-            "lots": "-16,587",
-            "prem": "76.30",
-            "dprem": "-4.70"
+            "lots": "-5,217",
+            "prem": "74.00",
+            "dprem": "-7.00"
           },
           "put": {
-            "label": "BUY",
-            "lots": "+302",
-            "prem": "127.85",
-            "dprem": "+9.40"
+            "label": "SHORT COVER",
+            "lots": "-2,469",
+            "prem": "124.65",
+            "dprem": "+6.20"
           }
         },
         {
@@ -81,15 +81,15 @@
           "strike": "23,200",
           "call": {
             "label": "LONG EXIT",
-            "lots": "-13,322",
-            "prem": "57.25",
-            "dprem": "-3.75"
+            "lots": "-642",
+            "prem": "55.00",
+            "dprem": "-6.00"
           },
           "put": {
             "label": "SHORT COVER",
-            "lots": "-2,732",
-            "prem": "159.35",
-            "dprem": "+10.55"
+            "lots": "-1,634",
+            "prem": "155.90",
+            "dprem": "+7.10"
           }
         }
       ]
@@ -10495,6 +10495,18 @@
   "nifty_fut": [
     {
       "day": "2026-10-16",
+      "clock": "13:15",
+      "saved_at": "2026-10-16 13:18:20",
+      "contract": "NIFTY27OCT26FUT",
+      "expiry": "2026-10-27",
+      "label": "SHORT COVERING",
+      "lots": "11 lots",
+      "since": "2026-10-16 13:03:16",
+      "price": "Price 23,119.00 \u2192 23,130.00  (+11.00)",
+      "oi": "Open interest 261,207 \u2192 261,196 lots"
+    },
+    {
+      "day": "2026-10-16",
       "clock": "13:00",
       "saved_at": "2026-10-16 13:03:16",
       "contract": "NIFTY27OCT26FUT",
@@ -10951,6 +10963,18 @@
     }
   ],
   "sensex_fut": [
+    {
+      "day": "2026-10-16",
+      "clock": "13:15",
+      "saved_at": "2026-10-16 13:18:20",
+      "contract": "SENSEX26OCTFUT",
+      "expiry": "2026-10-29",
+      "label": "PRICE UP",
+      "lots": "0 lots",
+      "since": "2026-10-16 13:03:16",
+      "price": "Price 74,649.90 \u2192 74,696.90  (+47.00)",
+      "oi": "Open interest 4,749 \u2192 4,749 lots"
+    },
     {
       "day": "2026-10-16",
       "clock": "13:00",
@@ -11413,7 +11437,7 @@
       "saved": true,
       "flat": false,
       "realised": -45780.92,
-      "updated_at": "2026-10-16 13:03:25",
+      "updated_at": "2026-10-16 13:14:46",
       "open": {
         "direction": "SHORT",
         "tradingsymbol": "NIFTY23NOV26FUT",
