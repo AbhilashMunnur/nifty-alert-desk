@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-16 15:43 IST",
+  "generated_at": "2026-10-16 15:51 IST",
   "nifty_oi": [
     {
       "day": "2026-10-16",
       "clock": "15:40",
-      "saved_at": "2026-10-16 15:43:19",
+      "saved_at": "2026-10-16 15:49:46",
       "expiry": "2026-10-19",
       "atm": "23,150",
       "lot_size": 65,
@@ -6584,6 +6584,99 @@
     }
   ],
   "sensex_oi": [
+    {
+      "day": "2026-10-16",
+      "clock": "15:45",
+      "saved_at": "2026-10-16 15:51:08",
+      "expiry": "2026-10-22",
+      "atm": "74,700",
+      "lot_size": 20,
+      "compared_to": "2026-10-16 15:43:35",
+      "totals": "This interval  CE BUY 0 / WRITE 0   PE BUY 0 / WRITE 0  (lots)",
+      "baseline": false,
+      "strikes": [
+        {
+          "label": "ITM2",
+          "strike": "74,500",
+          "call": {
+            "label": "FLAT",
+            "lots": "+0",
+            "prem": "496.80",
+            "dprem": "+0.00"
+          },
+          "put": {
+            "label": "FLAT",
+            "lots": "+0",
+            "prem": "454.75",
+            "dprem": "+0.00"
+          }
+        },
+        {
+          "label": "ITM1",
+          "strike": "74,600",
+          "call": {
+            "label": "FLAT",
+            "lots": "+0",
+            "prem": "447.20",
+            "dprem": "+0.00"
+          },
+          "put": {
+            "label": "FLAT",
+            "lots": "+0",
+            "prem": "499.80",
+            "dprem": "+0.00"
+          }
+        },
+        {
+          "label": "ATM",
+          "strike": "74,700",
+          "call": {
+            "label": "FLAT",
+            "lots": "+0",
+            "prem": "398.40",
+            "dprem": "+0.00"
+          },
+          "put": {
+            "label": "FLAT",
+            "lots": "+0",
+            "prem": "542.00",
+            "dprem": "+0.00"
+          }
+        },
+        {
+          "label": "OTM1",
+          "strike": "74,800",
+          "call": {
+            "label": "FLAT",
+            "lots": "+0",
+            "prem": "358.00",
+            "dprem": "+0.00"
+          },
+          "put": {
+            "label": "FLAT",
+            "lots": "+0",
+            "prem": "599.25",
+            "dprem": "+0.00"
+          }
+        },
+        {
+          "label": "OTM2",
+          "strike": "74,900",
+          "call": {
+            "label": "FLAT",
+            "lots": "+0",
+            "prem": "311.90",
+            "dprem": "+0.00"
+          },
+          "put": {
+            "label": "FLAT",
+            "lots": "+0",
+            "prem": "665.80",
+            "dprem": "+0.00"
+          }
+        }
+      ]
+    },
     {
       "day": "2026-10-16",
       "clock": "15:40",
