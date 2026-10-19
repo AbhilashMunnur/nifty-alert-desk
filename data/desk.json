@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19 15:26 IST",
+  "generated_at": "2026-10-19 15:33 IST",
   "nifty_oi": [
     {
       "day": "2026-10-19",
@@ -4564,6 +4564,18 @@
   "nifty_fut": [
     {
       "day": "2026-10-19",
+      "clock": "15:30",
+      "saved_at": "2026-10-19 15:33:22",
+      "contract": "NIFTY27OCT26FUT",
+      "expiry": "2026-10-27",
+      "label": "SHORT COVERING",
+      "lots": "682 lots",
+      "since": "2026-10-19 15:19:09",
+      "price": "Price 22,900.00 \u2192 22,905.70  (+5.70)",
+      "oi": "Open interest 254,430 \u2192 253,748 lots"
+    },
+    {
+      "day": "2026-10-19",
       "clock": "15:15",
       "saved_at": "2026-10-19 15:19:09",
       "contract": "NIFTY27OCT26FUT",
@@ -4840,6 +4852,18 @@
     }
   ],
   "sensex_fut": [
+    {
+      "day": "2026-10-19",
+      "clock": "15:30",
+      "saved_at": "2026-10-19 15:33:23",
+      "contract": "SENSEX26OCTFUT",
+      "expiry": "2026-10-29",
+      "label": "LONG EXIT",
+      "lots": "5 lots",
+      "since": "2026-10-19 15:19:10",
+      "price": "Price 73,995.00 \u2192 73,993.30  (-1.70)",
+      "oi": "Open interest 4,903 \u2192 4,898 lots"
+    },
     {
       "day": "2026-10-19",
       "clock": "15:15",
@@ -5172,11 +5196,11 @@
       "day": "2026-10-19",
       "label": "LONG UNWIND",
       "lines": [
-        "NIFTY FUT DAY \u2014 19 Oct 2026 15:19",
+        "NIFTY FUT DAY \u2014 19 Oct 2026 15:33",
         "NIFTY27OCT26FUT  expiry 2026-10-27",
-        "2026-10-19 09:33:07 \u2192 2026-10-19 15:19:09  LONG UNWIND",
-        "Lots 256,129 \u2192 254,430  (-1,699, -0.66%)",
-        "Price 23,074.40 \u2192 22,900.00  (-174.40)",
+        "2026-10-19 09:33:07 \u2192 2026-10-19 15:33:22  LONG UNWIND",
+        "Lots 256,129 \u2192 253,748  (-2,381, -0.93%)",
+        "Price 23,074.40 \u2192 22,905.70  (-168.70)",
         "Whole session. Futures price and futures open interest."
       ]
     },
@@ -5185,11 +5209,11 @@
       "day": "2026-10-19",
       "label": "SHORT BUILDUP",
       "lines": [
-        "SENSEX FUT DAY \u2014 19 Oct 2026 15:19",
+        "SENSEX FUT DAY \u2014 19 Oct 2026 15:33",
         "SENSEX26OCTFUT  expiry 2026-10-29",
-        "2026-10-19 09:33:08 \u2192 2026-10-19 15:19:10  SHORT BUILDUP",
-        "Lots 4,804 \u2192 4,903  (+99, +2.06%)",
-        "Price 74,498.00 \u2192 73,995.00  (-503.00)",
+        "2026-10-19 09:33:08 \u2192 2026-10-19 15:33:23  SHORT BUILDUP",
+        "Lots 4,804 \u2192 4,898  (+94, +1.96%)",
+        "Price 74,498.00 \u2192 73,993.30  (-504.70)",
         "Whole session. Futures price and futures open interest."
       ]
     }
