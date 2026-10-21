@@ -190,8 +190,34 @@
       ]
     }
   ],
-  "nifty_fut": [],
-  "sensex_fut": [],
+  "nifty_fut": [
+    {
+      "day": "2026-10-21",
+      "clock": "10:15",
+      "saved_at": "2026-10-21 10:19:56",
+      "contract": "NIFTY27OCT26FUT",
+      "expiry": "2026-10-27",
+      "label": "BASELINE",
+      "lots": null,
+      "since": null,
+      "price": "Price 22,966.00",
+      "oi": "Open interest 244,975 lots"
+    }
+  ],
+  "sensex_fut": [
+    {
+      "day": "2026-10-21",
+      "clock": "10:15",
+      "saved_at": "2026-10-21 10:19:57",
+      "contract": "SENSEX26OCTFUT",
+      "expiry": "2026-10-29",
+      "label": "BASELINE",
+      "lots": null,
+      "since": null,
+      "price": "Price 74,235.00",
+      "oi": "Open interest 5,032 lots"
+    }
+  ],
   "positions": {
     "nifty": {
       "saved": true,
