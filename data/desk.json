@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02 15:24 IST",
+  "generated_at": "2026-11-02 15:33 IST",
   "nifty_oi": [
     {
       "day": "2026-11-02",
@@ -4843,6 +4843,18 @@
   "nifty_fut": [
     {
       "day": "2026-11-02",
+      "clock": "15:30",
+      "saved_at": "2026-11-02 15:33:14",
+      "contract": "NIFTY23NOV26FUT",
+      "expiry": "2026-11-23",
+      "label": "SHORT COVERING",
+      "lots": "283 lots",
+      "since": "2026-11-02 15:18:26",
+      "price": "Price 23,389.00 \u2192 23,420.00  (+31.00)",
+      "oi": "Open interest 237,001 \u2192 236,718 lots"
+    },
+    {
+      "day": "2026-11-02",
       "clock": "15:15",
       "saved_at": "2026-11-02 15:18:26",
       "contract": "NIFTY23NOV26FUT",
@@ -5131,6 +5143,18 @@
     }
   ],
   "sensex_fut": [
+    {
+      "day": "2026-11-02",
+      "clock": "15:30",
+      "saved_at": "2026-11-02 15:33:14",
+      "contract": "SENSEX26NOVFUT",
+      "expiry": "2026-11-26",
+      "label": "SHORT COVERING",
+      "lots": "6 lots",
+      "since": "2026-11-02 15:18:27",
+      "price": "Price 75,672.80 \u2192 75,730.00  (+57.20)",
+      "oi": "Open interest 3,186 \u2192 3,180 lots"
+    },
     {
       "day": "2026-11-02",
       "clock": "15:15",
@@ -5478,11 +5502,11 @@
       "day": "2026-11-02",
       "label": "LONG BUILDUP",
       "lines": [
-        "NIFTY FUT DAY \u2014 02 Nov 2026 15:18",
+        "NIFTY FUT DAY \u2014 02 Nov 2026 15:33",
         "NIFTY23NOV26FUT  expiry 2026-11-23",
-        "2026-11-02 09:33:17 \u2192 2026-11-02 15:18:26  LONG BUILDUP",
-        "Lots 236,679 \u2192 237,001  (+322, +0.14%)",
-        "Price 23,339.00 \u2192 23,389.00  (+50.00)",
+        "2026-11-02 09:33:17 \u2192 2026-11-02 15:33:14  LONG BUILDUP",
+        "Lots 236,679 \u2192 236,718  (+39, +0.02%)",
+        "Price 23,339.00 \u2192 23,420.00  (+81.00)",
         "Whole session. Futures price and futures open interest."
       ]
     },
@@ -5491,11 +5515,11 @@
       "day": "2026-11-02",
       "label": "SHORT COVERING",
       "lines": [
-        "SENSEX FUT DAY \u2014 02 Nov 2026 15:18",
+        "SENSEX FUT DAY \u2014 02 Nov 2026 15:33",
         "SENSEX26NOVFUT  expiry 2026-11-26",
-        "2026-11-02 09:33:18 \u2192 2026-11-02 15:18:27  SHORT COVERING",
-        "Lots 3,347 \u2192 3,186  (-161, -4.81%)",
-        "Price 75,515.25 \u2192 75,672.80  (+157.55)",
+        "2026-11-02 09:33:18 \u2192 2026-11-02 15:33:14  SHORT COVERING",
+        "Lots 3,347 \u2192 3,180  (-167, -4.99%)",
+        "Price 75,515.25 \u2192 75,730.00  (+214.75)",
         "Whole session. Futures price and futures open interest."
       ]
     }
