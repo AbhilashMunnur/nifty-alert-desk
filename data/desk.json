@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02 14:53 IST",
+  "generated_at": "2026-11-02 15:03 IST",
   "nifty_oi": [
     {
       "day": "2026-11-02",
@@ -4099,6 +4099,18 @@
   "nifty_fut": [
     {
       "day": "2026-11-02",
+      "clock": "15:00",
+      "saved_at": "2026-11-02 15:03:28",
+      "contract": "NIFTY23NOV26FUT",
+      "expiry": "2026-11-23",
+      "label": "NEW SELLING",
+      "lots": "118 lots",
+      "since": "2026-11-02 14:48:08",
+      "price": "Price 23,372.30 \u2192 23,358.00  (-14.30)",
+      "oi": "Open interest 236,569 \u2192 236,687 lots"
+    },
+    {
+      "day": "2026-11-02",
       "clock": "14:45",
       "saved_at": "2026-11-02 14:48:08",
       "contract": "NIFTY23NOV26FUT",
@@ -4363,6 +4375,18 @@
     }
   ],
   "sensex_fut": [
+    {
+      "day": "2026-11-02",
+      "clock": "15:00",
+      "saved_at": "2026-11-02 15:03:29",
+      "contract": "SENSEX26NOVFUT",
+      "expiry": "2026-11-26",
+      "label": "NEW SELLING",
+      "lots": "4 lots",
+      "since": "2026-11-02 14:48:10",
+      "price": "Price 75,620.00 \u2192 75,550.05  (-69.95)",
+      "oi": "Open interest 3,185 \u2192 3,189 lots"
+    },
     {
       "day": "2026-11-02",
       "clock": "14:45",
@@ -4680,5 +4704,32 @@
       "closed": []
     }
   },
-  "fut_days": []
+  "fut_days": [
+    {
+      "name": "NIFTY",
+      "day": "2026-11-02",
+      "label": "LONG BUILDUP",
+      "lines": [
+        "NIFTY FUT DAY \u2014 02 Nov 2026 15:03",
+        "NIFTY23NOV26FUT  expiry 2026-11-23",
+        "2026-11-02 09:33:17 \u2192 2026-11-02 15:03:28  LONG BUILDUP",
+        "Lots 236,679 \u2192 236,687  (+8, +0.00%)",
+        "Price 23,339.00 \u2192 23,358.00  (+19.00)",
+        "Whole session. Futures price and futures open interest."
+      ]
+    },
+    {
+      "name": "SENSEX",
+      "day": "2026-11-02",
+      "label": "SHORT COVERING",
+      "lines": [
+        "SENSEX FUT DAY \u2014 02 Nov 2026 15:03",
+        "SENSEX26NOVFUT  expiry 2026-11-26",
+        "2026-11-02 09:33:18 \u2192 2026-11-02 15:03:29  SHORT COVERING",
+        "Lots 3,347 \u2192 3,189  (-158, -4.72%)",
+        "Price 75,515.25 \u2192 75,550.05  (+34.80)",
+        "Whole session. Futures price and futures open interest."
+      ]
+    }
+  ]
 }
