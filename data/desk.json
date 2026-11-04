@@ -1,6 +1,99 @@
 {
-  "generated_at": "2026-11-04 15:04 IST",
+  "generated_at": "2026-11-04 15:19 IST",
   "nifty_oi": [
+    {
+      "day": "2026-11-04",
+      "clock": "15:15",
+      "saved_at": "2026-11-04 15:19:22",
+      "expiry": "2026-11-09",
+      "atm": "23,900",
+      "lot_size": 65,
+      "compared_to": "2026-11-04 15:04:25",
+      "totals": "This interval  CE BUY 0 / WRITE 0   PE BUY 0 / WRITE 0  (lots)",
+      "baseline": false,
+      "strikes": [
+        {
+          "label": "ITM2",
+          "strike": "23,800",
+          "call": {
+            "label": "OI FALL",
+            "lots": "-4,159",
+            "prem": "237.05",
+            "dprem": "-0.90"
+          },
+          "put": {
+            "label": "SHORT COVER",
+            "lots": "-9,846",
+            "prem": "101.95",
+            "dprem": "+2.10"
+          }
+        },
+        {
+          "label": "ITM1",
+          "strike": "23,850",
+          "call": {
+            "label": "OI FALL",
+            "lots": "-5,194",
+            "prem": "207.35",
+            "dprem": "-0.55"
+          },
+          "put": {
+            "label": "SHORT COVER",
+            "lots": "-5,860",
+            "prem": "121.15",
+            "dprem": "+2.20"
+          }
+        },
+        {
+          "label": "ATM",
+          "strike": "23,900",
+          "call": {
+            "label": "OI FALL",
+            "lots": "-10,248",
+            "prem": "178.95",
+            "dprem": "-0.50"
+          },
+          "put": {
+            "label": "SHORT COVER",
+            "lots": "-5,474",
+            "prem": "143.05",
+            "dprem": "+2.25"
+          }
+        },
+        {
+          "label": "OTM1",
+          "strike": "23,950",
+          "call": {
+            "label": "OI FALL",
+            "lots": "-6,143",
+            "prem": "154.30",
+            "dprem": "+0.55"
+          },
+          "put": {
+            "label": "OI FALL",
+            "lots": "-736",
+            "prem": "167.80",
+            "dprem": "+2.25"
+          }
+        },
+        {
+          "label": "OTM2",
+          "strike": "24,000",
+          "call": {
+            "label": "OI FALL",
+            "lots": "-11,579",
+            "prem": "131.70",
+            "dprem": "+0.70"
+          },
+          "put": {
+            "label": "OI FALL",
+            "lots": "-3,929",
+            "prem": "194.80",
+            "dprem": "+2.60"
+          }
+        }
+      ]
+    },
     {
       "day": "2026-11-04",
       "clock": "15:00",
@@ -6307,6 +6400,99 @@
   "sensex_oi": [
     {
       "day": "2026-11-04",
+      "clock": "15:15",
+      "saved_at": "2026-11-04 15:19:37",
+      "expiry": "2026-11-05",
+      "atm": "77,200",
+      "lot_size": 20,
+      "compared_to": "2026-11-04 15:04:41",
+      "totals": "This interval  CE BUY 0 / WRITE 0   PE BUY 0 / WRITE 0  (lots)",
+      "baseline": false,
+      "strikes": [
+        {
+          "label": "ITM2",
+          "strike": "77,000",
+          "call": {
+            "label": "OI FALL",
+            "lots": "-2,053",
+            "prem": "489.20",
+            "dprem": "-6.05"
+          },
+          "put": {
+            "label": "SHORT COVER",
+            "lots": "-18,541",
+            "prem": "169.00",
+            "dprem": "+9.60"
+          }
+        },
+        {
+          "label": "ITM1",
+          "strike": "77,100",
+          "call": {
+            "label": "OI FALL",
+            "lots": "-6,584",
+            "prem": "426.80",
+            "dprem": "-5.25"
+          },
+          "put": {
+            "label": "SHORT COVER",
+            "lots": "-10,652",
+            "prem": "203.80",
+            "dprem": "+11.95"
+          }
+        },
+        {
+          "label": "ATM",
+          "strike": "77,200",
+          "call": {
+            "label": "OI FALL",
+            "lots": "-16,575",
+            "prem": "367.10",
+            "dprem": "-5.45"
+          },
+          "put": {
+            "label": "SHORT COVER",
+            "lots": "-11,620",
+            "prem": "244.60",
+            "dprem": "+13.25"
+          }
+        },
+        {
+          "label": "OTM1",
+          "strike": "77,300",
+          "call": {
+            "label": "OI FALL",
+            "lots": "-30,111",
+            "prem": "314.55",
+            "dprem": "-4.10"
+          },
+          "put": {
+            "label": "SHORT COVER",
+            "lots": "-4,436",
+            "prem": "292.65",
+            "dprem": "+15.65"
+          }
+        },
+        {
+          "label": "OTM2",
+          "strike": "77,400",
+          "call": {
+            "label": "OI FALL",
+            "lots": "-11,362",
+            "prem": "268.80",
+            "dprem": "-0.65"
+          },
+          "put": {
+            "label": "SHORT COVER",
+            "lots": "-2,073",
+            "prem": "343.40",
+            "dprem": "+15.10"
+          }
+        }
+      ]
+    },
+    {
+      "day": "2026-11-04",
       "clock": "15:00",
       "saved_at": "2026-11-04 15:04:41",
       "expiry": "2026-11-05",
@@ -12076,6 +12262,18 @@
   "nifty_fut": [
     {
       "day": "2026-11-04",
+      "clock": "15:15",
+      "saved_at": "2026-11-04 15:18:07",
+      "contract": "NIFTY23NOV26FUT",
+      "expiry": "2026-11-23",
+      "label": "OI UP",
+      "lots": "706 lots",
+      "since": "2026-11-04 15:03:11",
+      "price": "Price 23,973.90 \u2192 23,973.90  (+0.00)",
+      "oi": "Open interest 211,935 \u2192 212,641 lots"
+    },
+    {
+      "day": "2026-11-04",
       "clock": "15:00",
       "saved_at": "2026-11-04 15:03:11",
       "contract": "NIFTY23NOV26FUT",
@@ -12616,6 +12814,18 @@
     }
   ],
   "sensex_fut": [
+    {
+      "day": "2026-11-04",
+      "clock": "15:15",
+      "saved_at": "2026-11-04 15:18:08",
+      "contract": "SENSEX26NOVFUT",
+      "expiry": "2026-11-26",
+      "label": "SHORT COVERING",
+      "lots": "19 lots",
+      "since": "2026-11-04 15:03:11",
+      "price": "Price 77,492.00 \u2192 77,498.00  (+6.00)",
+      "oi": "Open interest 3,090 \u2192 3,071 lots"
+    },
     {
       "day": "2026-11-04",
       "clock": "15:00",
@@ -13162,7 +13372,7 @@
       "saved": true,
       "flat": false,
       "realised": -4713.92,
-      "updated_at": "2026-11-04 15:04:25",
+      "updated_at": "2026-11-04 15:19:22",
       "open": {
         "direction": "SHORT",
         "tradingsymbol": "NIFTY23NOV26FUT",
@@ -13212,7 +13422,7 @@
       "saved": true,
       "flat": false,
       "realised": 0.0,
-      "updated_at": "2026-11-04 15:04:41",
+      "updated_at": "2026-11-04 15:19:37",
       "open": {
         "direction": "SHORT",
         "tradingsymbol": "SENSEX26NOVFUT",
@@ -13231,10 +13441,10 @@
       "day": "2026-11-04",
       "label": "SHORT COVERING",
       "lines": [
-        "NIFTY FUT DAY \u2014 04 Nov 2026 15:03",
+        "NIFTY FUT DAY \u2014 04 Nov 2026 15:18",
         "NIFTY23NOV26FUT  expiry 2026-11-23",
-        "2026-11-04 09:33:10 \u2192 2026-11-04 15:03:11  SHORT COVERING",
-        "Lots 213,801 \u2192 211,935  (-1,866, -0.87%)",
+        "2026-11-04 09:33:10 \u2192 2026-11-04 15:18:07  SHORT COVERING",
+        "Lots 213,801 \u2192 212,641  (-1,160, -0.54%)",
         "Price 23,951.90 \u2192 23,973.90  (+22.00)",
         "Whole session. Futures price and futures open interest."
       ]
@@ -13244,11 +13454,11 @@
       "day": "2026-11-04",
       "label": "SHORT COVERING",
       "lines": [
-        "SENSEX FUT DAY \u2014 04 Nov 2026 15:03",
+        "SENSEX FUT DAY \u2014 04 Nov 2026 15:18",
         "SENSEX26NOVFUT  expiry 2026-11-26",
-        "2026-11-04 09:33:11 \u2192 2026-11-04 15:03:11  SHORT COVERING",
-        "Lots 3,261 \u2192 3,090  (-171, -5.24%)",
-        "Price 77,489.00 \u2192 77,492.00  (+3.00)",
+        "2026-11-04 09:33:11 \u2192 2026-11-04 15:18:08  SHORT COVERING",
+        "Lots 3,261 \u2192 3,071  (-190, -5.83%)",
+        "Price 77,489.00 \u2192 77,498.00  (+9.00)",
         "Whole session. Futures price and futures open interest."
       ]
     }
