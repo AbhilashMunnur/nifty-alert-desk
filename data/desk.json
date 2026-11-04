@@ -1,6 +1,99 @@
 {
-  "generated_at": "2026-11-04 14:33 IST",
+  "generated_at": "2026-11-04 14:35 IST",
   "nifty_oi": [
+    {
+      "day": "2026-11-04",
+      "clock": "14:30",
+      "saved_at": "2026-11-04 14:34:37",
+      "expiry": "2026-11-09",
+      "atm": "23,900",
+      "lot_size": 65,
+      "compared_to": "2026-11-04 14:29:37",
+      "totals": "This interval  CE BUY 0 / WRITE 0   PE BUY 6,943 / WRITE 0  (lots)",
+      "baseline": false,
+      "strikes": [
+        {
+          "label": "ITM2",
+          "strike": "23,800",
+          "call": {
+            "label": "LONG EXIT",
+            "lots": "-2,119",
+            "prem": "216.60",
+            "dprem": "-12.45"
+          },
+          "put": {
+            "label": "BUY",
+            "lots": "+592",
+            "prem": "119.80",
+            "dprem": "+8.35"
+          }
+        },
+        {
+          "label": "ITM1",
+          "strike": "23,850",
+          "call": {
+            "label": "LONG EXIT",
+            "lots": "-2,386",
+            "prem": "188.30",
+            "dprem": "-11.50"
+          },
+          "put": {
+            "label": "BUY",
+            "lots": "+1,847",
+            "prem": "141.05",
+            "dprem": "+9.50"
+          }
+        },
+        {
+          "label": "ATM",
+          "strike": "23,900",
+          "call": {
+            "label": "LONG EXIT",
+            "lots": "-3,400",
+            "prem": "162.35",
+            "dprem": "-10.25"
+          },
+          "put": {
+            "label": "BUY",
+            "lots": "+3,105",
+            "prem": "165.00",
+            "dprem": "+10.65"
+          }
+        },
+        {
+          "label": "OTM1",
+          "strike": "23,950",
+          "call": {
+            "label": "LONG EXIT",
+            "lots": "-1,814",
+            "prem": "138.80",
+            "dprem": "-8.85"
+          },
+          "put": {
+            "label": "BUY",
+            "lots": "+790",
+            "prem": "191.65",
+            "dprem": "+12.20"
+          }
+        },
+        {
+          "label": "OTM2",
+          "strike": "24,000",
+          "call": {
+            "label": "LONG EXIT",
+            "lots": "-2,147",
+            "prem": "117.70",
+            "dprem": "-8.40"
+          },
+          "put": {
+            "label": "BUY",
+            "lots": "+609",
+            "prem": "221.00",
+            "dprem": "+13.05"
+          }
+        }
+      ]
+    },
     {
       "day": "2026-11-04",
       "clock": "14:15",
@@ -5936,12 +6029,12 @@
     {
       "day": "2026-11-04",
       "clock": "14:30",
-      "saved_at": "2026-11-04 14:31:00",
+      "saved_at": "2026-11-04 14:35:12",
       "expiry": "2026-11-05",
       "atm": "77,200",
       "lot_size": 20,
       "compared_to": "2026-11-04 14:25:30",
-      "totals": "This interval  CE BUY 0 / WRITE 3,716   PE BUY 9,389 / WRITE 0  (lots)",
+      "totals": "This interval  CE BUY 0 / WRITE 3,542   PE BUY 20,291 / WRITE 0  (lots)",
       "baseline": false,
       "strikes": [
         {
@@ -5949,15 +6042,15 @@
           "strike": "77,000",
           "call": {
             "label": "LONG EXIT",
-            "lots": "-1,017",
-            "prem": "441.80",
-            "dprem": "-32.00"
+            "lots": "-3,534",
+            "prem": "443.65",
+            "dprem": "-30.15"
           },
           "put": {
             "label": "BUY",
-            "lots": "+1,757",
-            "prem": "209.90",
-            "dprem": "+20.55"
+            "lots": "+8,192",
+            "prem": "208.45",
+            "dprem": "+19.10"
           }
         },
         {
@@ -5965,15 +6058,15 @@
           "strike": "77,100",
           "call": {
             "label": "LONG EXIT",
-            "lots": "-3,921",
-            "prem": "384.25",
-            "dprem": "-29.10"
+            "lots": "-6,979",
+            "prem": "383.95",
+            "dprem": "-29.40"
           },
           "put": {
-            "label": "SHORT COVER",
-            "lots": "-1,664",
-            "prem": "247.75",
-            "dprem": "+20.50"
+            "label": "BUY",
+            "lots": "+648",
+            "prem": "247.35",
+            "dprem": "+20.10"
           }
         },
         {
@@ -5981,15 +6074,15 @@
           "strike": "77,200",
           "call": {
             "label": "LONG EXIT",
-            "lots": "-5,445",
-            "prem": "329.40",
-            "dprem": "-26.50"
+            "lots": "-5,938",
+            "prem": "330.35",
+            "dprem": "-25.55"
           },
           "put": {
             "label": "BUY",
-            "lots": "+2,046",
-            "prem": "294.05",
-            "dprem": "+23.75"
+            "lots": "+5,893",
+            "prem": "292.85",
+            "dprem": "+22.55"
           }
         },
         {
@@ -5997,31 +6090,31 @@
           "strike": "77,300",
           "call": {
             "label": "WRITE",
-            "lots": "+3,329",
-            "prem": "281.75",
-            "dprem": "-23.30"
+            "lots": "+3,542",
+            "prem": "283.05",
+            "dprem": "-22.00"
           },
           "put": {
             "label": "BUY",
-            "lots": "+5,280",
-            "prem": "346.85",
-            "dprem": "+27.50"
+            "lots": "+4,778",
+            "prem": "347.20",
+            "dprem": "+27.85"
           }
         },
         {
           "label": "OTM2",
           "strike": "77,400",
           "call": {
-            "label": "WRITE",
-            "lots": "+387",
-            "prem": "239.40",
-            "dprem": "-20.80"
+            "label": "LONG EXIT",
+            "lots": "-398",
+            "prem": "240.50",
+            "dprem": "-19.70"
           },
           "put": {
             "label": "BUY",
-            "lots": "+306",
-            "prem": "402.15",
-            "dprem": "+29.50"
+            "lots": "+780",
+            "prem": "403.75",
+            "dprem": "+31.10"
           }
         }
       ]
@@ -12463,7 +12556,7 @@
       "saved": true,
       "flat": false,
       "realised": -4713.92,
-      "updated_at": "2026-11-04 14:29:37",
+      "updated_at": "2026-11-04 14:34:37",
       "open": {
         "direction": "SHORT",
         "tradingsymbol": "NIFTY23NOV26FUT",
@@ -12513,7 +12606,7 @@
       "saved": true,
       "flat": false,
       "realised": 0.0,
-      "updated_at": "2026-11-04 14:31:00",
+      "updated_at": "2026-11-04 14:35:12",
       "open": {
         "direction": "SHORT",
         "tradingsymbol": "SENSEX26NOVFUT",
