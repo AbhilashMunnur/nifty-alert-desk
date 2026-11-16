@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16 14:54 IST",
+  "generated_at": "2026-11-16 15:03 IST",
   "nifty_oi": [
     {
       "day": "2026-11-16",
@@ -4006,6 +4006,18 @@
   "nifty_fut": [
     {
       "day": "2026-11-16",
+      "clock": "15:00",
+      "saved_at": "2026-11-16 15:03:13",
+      "contract": "NIFTY23NOV26FUT",
+      "expiry": "2026-11-23",
+      "label": "NEW BUYING",
+      "lots": "19 lots",
+      "since": "2026-11-16 14:48:07",
+      "price": "Price 25,250.50 \u2192 25,259.10  (+8.60)",
+      "oi": "Open interest 179,715 \u2192 179,734 lots"
+    },
+    {
+      "day": "2026-11-16",
       "clock": "14:45",
       "saved_at": "2026-11-16 14:48:07",
       "contract": "NIFTY23NOV26FUT",
@@ -4270,6 +4282,18 @@
     }
   ],
   "sensex_fut": [
+    {
+      "day": "2026-11-16",
+      "clock": "15:00",
+      "saved_at": "2026-11-16 15:03:14",
+      "contract": "SENSEX26NOVFUT",
+      "expiry": "2026-11-26",
+      "label": "SHORT COVERING",
+      "lots": "1 lots",
+      "since": "2026-11-16 14:48:08",
+      "price": "Price 82,008.15 \u2192 82,023.00  (+14.85)",
+      "oi": "Open interest 2,106 \u2192 2,105 lots"
+    },
     {
       "day": "2026-11-16",
       "clock": "14:45",
@@ -4757,5 +4781,32 @@
     "open": null,
     "rows": []
   },
-  "fut_days": []
+  "fut_days": [
+    {
+      "name": "NIFTY",
+      "day": "2026-11-16",
+      "label": "LONG UNWIND",
+      "lines": [
+        "NIFTY FUT DAY \u2014 16 Nov 2026 15:03",
+        "NIFTY23NOV26FUT  expiry 2026-11-23",
+        "2026-11-16 09:33:10 \u2192 2026-11-16 15:03:13  LONG UNWIND",
+        "Lots 180,276 \u2192 179,734  (-542, -0.30%)",
+        "Price 25,285.80 \u2192 25,259.10  (-26.70)",
+        "Whole session. Futures price and futures open interest."
+      ]
+    },
+    {
+      "name": "SENSEX",
+      "day": "2026-11-16",
+      "label": "SHORT BUILDUP",
+      "lines": [
+        "SENSEX FUT DAY \u2014 16 Nov 2026 15:03",
+        "SENSEX26NOVFUT  expiry 2026-11-26",
+        "2026-11-16 09:33:11 \u2192 2026-11-16 15:03:14  SHORT BUILDUP",
+        "Lots 2,077 \u2192 2,105  (+28, +1.35%)",
+        "Price 82,140.00 \u2192 82,023.00  (-117.00)",
+        "Whole session. Futures price and futures open interest."
+      ]
+    }
+  ]
 }
