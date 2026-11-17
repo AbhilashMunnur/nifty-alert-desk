@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16 16:03 IST",
+  "generated_at": "2026-11-17 09:33 IST",
   "nifty_oi": [
     {
       "day": "2026-11-16",
@@ -5121,6 +5121,18 @@
   ],
   "nifty_fut": [
     {
+      "day": "2026-11-17",
+      "clock": "09:30",
+      "saved_at": "2026-11-17 09:33:14",
+      "contract": "NIFTY23NOV26FUT",
+      "expiry": "2026-11-23",
+      "label": "SHORT COVERING",
+      "lots": "1,485 lots",
+      "since": "2026-11-16 15:33:09",
+      "price": "Price 25,315.00 \u2192 25,367.00  (+52.00)",
+      "oi": "Open interest 178,702 \u2192 177,217 lots"
+    },
+    {
       "day": "2026-11-16",
       "clock": "15:30",
       "saved_at": "2026-11-16 15:33:09",
@@ -5422,6 +5434,18 @@
     }
   ],
   "sensex_fut": [
+    {
+      "day": "2026-11-17",
+      "clock": "09:30",
+      "saved_at": "2026-11-17 09:33:26",
+      "contract": "SENSEX26NOVFUT",
+      "expiry": "2026-11-26",
+      "label": "NEW BUYING",
+      "lots": "13 lots",
+      "since": "2026-11-16 15:33:09",
+      "price": "Price 82,195.00 \u2192 82,345.00  (+150.00)",
+      "oi": "Open interest 2,099 \u2192 2,112 lots"
+    },
     {
       "day": "2026-11-16",
       "clock": "15:30",
@@ -5945,32 +5969,5 @@
     "open": null,
     "rows": []
   },
-  "fut_days": [
-    {
-      "name": "NIFTY",
-      "day": "2026-11-16",
-      "label": "SHORT COVERING",
-      "lines": [
-        "NIFTY FUT DAY \u2014 16 Nov 2026 16:03",
-        "NIFTY23NOV26FUT  expiry 2026-11-23",
-        "2026-11-16 09:33:10 \u2192 2026-11-16 15:33:09  SHORT COVERING",
-        "Lots 180,276 \u2192 178,702  (-1,574, -0.87%)",
-        "Price 25,285.80 \u2192 25,315.00  (+29.20)",
-        "Whole session. Futures price and futures open interest."
-      ]
-    },
-    {
-      "name": "SENSEX",
-      "day": "2026-11-16",
-      "label": "LONG BUILDUP",
-      "lines": [
-        "SENSEX FUT DAY \u2014 16 Nov 2026 16:03",
-        "SENSEX26NOVFUT  expiry 2026-11-26",
-        "2026-11-16 09:33:11 \u2192 2026-11-16 15:33:09  LONG BUILDUP",
-        "Lots 2,077 \u2192 2,099  (+22, +1.06%)",
-        "Price 82,140.00 \u2192 82,195.00  (+55.00)",
-        "Whole session. Futures price and futures open interest."
-      ]
-    }
-  ]
+  "fut_days": []
 }
