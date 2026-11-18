@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18 14:58 IST",
+  "generated_at": "2026-11-18 15:03 IST",
   "nifty_oi": [
     {
       "day": "2026-11-18",
@@ -4564,6 +4564,18 @@
   "nifty_fut": [
     {
       "day": "2026-11-18",
+      "clock": "15:00",
+      "saved_at": "2026-11-18 15:03:06",
+      "contract": "NIFTY23NOV26FUT",
+      "expiry": "2026-11-23",
+      "label": "LONG EXIT",
+      "lots": "159 lots",
+      "since": "2026-11-18 14:48:09",
+      "price": "Price 25,250.50 \u2192 25,244.20  (-6.30)",
+      "oi": "Open interest 178,907 \u2192 178,748 lots"
+    },
+    {
+      "day": "2026-11-18",
       "clock": "14:45",
       "saved_at": "2026-11-18 14:48:09",
       "contract": "NIFTY23NOV26FUT",
@@ -4864,6 +4876,18 @@
     }
   ],
   "sensex_fut": [
+    {
+      "day": "2026-11-18",
+      "clock": "15:00",
+      "saved_at": "2026-11-18 15:03:06",
+      "contract": "SENSEX26NOVFUT",
+      "expiry": "2026-11-26",
+      "label": "LONG EXIT",
+      "lots": "28 lots",
+      "since": "2026-11-18 14:48:11",
+      "price": "Price 82,252.10 \u2192 82,170.00  (-82.10)",
+      "oi": "Open interest 2,105 \u2192 2,077 lots"
+    },
     {
       "day": "2026-11-18",
       "clock": "14:45",
@@ -5657,5 +5681,32 @@
       }
     ]
   },
-  "fut_days": []
+  "fut_days": [
+    {
+      "name": "NIFTY",
+      "day": "2026-11-18",
+      "label": "SHORT BUILDUP",
+      "lines": [
+        "NIFTY FUT DAY \u2014 18 Nov 2026 15:03",
+        "NIFTY23NOV26FUT  expiry 2026-11-23",
+        "2026-11-18 09:33:03 \u2192 2026-11-18 15:03:06  SHORT BUILDUP",
+        "Lots 176,034 \u2192 178,748  (+2,714, +1.54%)",
+        "Price 25,331.00 \u2192 25,244.20  (-86.80)",
+        "Whole session. Futures price and futures open interest."
+      ]
+    },
+    {
+      "name": "SENSEX",
+      "day": "2026-11-18",
+      "label": "LONG UNWIND",
+      "lines": [
+        "SENSEX FUT DAY \u2014 18 Nov 2026 15:03",
+        "SENSEX26NOVFUT  expiry 2026-11-26",
+        "2026-11-18 09:33:04 \u2192 2026-11-18 15:03:06  LONG UNWIND",
+        "Lots 2,185 \u2192 2,077  (-108, -4.94%)",
+        "Price 82,429.10 \u2192 82,170.00  (-259.10)",
+        "Whole session. Futures price and futures open interest."
+      ]
+    }
+  ]
 }
