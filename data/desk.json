@@ -1,6 +1,99 @@
 {
-  "generated_at": "2026-11-18 09:48 IST",
+  "generated_at": "2026-11-18 09:56 IST",
   "nifty_oi": [
+    {
+      "day": "2026-11-18",
+      "clock": "09:45",
+      "saved_at": "2026-11-18 09:46:48",
+      "expiry": "2026-11-23",
+      "atm": "25,200",
+      "lot_size": 65,
+      "compared_to": "2026-11-18 09:39:11",
+      "totals": "This interval  CE BUY 0 / WRITE 58,048   PE BUY 3,149 / WRITE 0  (lots)",
+      "baseline": false,
+      "strikes": [
+        {
+          "label": "ITM2",
+          "strike": "25,100",
+          "call": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "240.90",
+            "dprem": null
+          },
+          "put": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "126.25",
+            "dprem": null
+          }
+        },
+        {
+          "label": "ITM1",
+          "strike": "25,150",
+          "call": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "211.80",
+            "dprem": null
+          },
+          "put": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "147.40",
+            "dprem": null
+          }
+        },
+        {
+          "label": "ATM",
+          "strike": "25,200",
+          "call": {
+            "label": "WRITE",
+            "lots": "+14,138",
+            "prem": "185.05",
+            "dprem": "-44.25"
+          },
+          "put": {
+            "label": "SHORT COVER",
+            "lots": "-1,435",
+            "prem": "171.25",
+            "dprem": "+32.50"
+          }
+        },
+        {
+          "label": "OTM1",
+          "strike": "25,250",
+          "call": {
+            "label": "WRITE",
+            "lots": "+19,887",
+            "prem": "161.00",
+            "dprem": "-40.10"
+          },
+          "put": {
+            "label": "BUY",
+            "lots": "+3,149",
+            "prem": "196.70",
+            "dprem": "+35.90"
+          }
+        },
+        {
+          "label": "OTM2",
+          "strike": "25,300",
+          "call": {
+            "label": "WRITE",
+            "lots": "+24,023",
+            "prem": "138.95",
+            "dprem": "-37.35"
+          },
+          "put": {
+            "label": "SHORT COVER",
+            "lots": "-18,981",
+            "prem": "224.50",
+            "dprem": "+40.50"
+          }
+        }
+      ]
+    },
     {
       "day": "2026-11-18",
       "clock": "09:30",
@@ -375,6 +468,99 @@
     }
   ],
   "sensex_oi": [
+    {
+      "day": "2026-11-18",
+      "clock": "09:45",
+      "saved_at": "2026-11-18 09:50:42",
+      "expiry": "2026-11-19",
+      "atm": "82,000",
+      "lot_size": 20,
+      "compared_to": "2026-11-17 10:10:14",
+      "totals": "This interval  CE BUY 0 / WRITE 31,567   PE BUY 9,062 / WRITE 0  (lots)",
+      "baseline": false,
+      "strikes": [
+        {
+          "label": "ITM2",
+          "strike": "81,800",
+          "call": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "496.00",
+            "dprem": null
+          },
+          "put": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "256.20",
+            "dprem": null
+          }
+        },
+        {
+          "label": "ITM1",
+          "strike": "81,900",
+          "call": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "437.85",
+            "dprem": null
+          },
+          "put": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "300.25",
+            "dprem": null
+          }
+        },
+        {
+          "label": "ATM",
+          "strike": "82,000",
+          "call": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "387.40",
+            "dprem": null
+          },
+          "put": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "346.40",
+            "dprem": null
+          }
+        },
+        {
+          "label": "OTM1",
+          "strike": "82,100",
+          "call": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "337.50",
+            "dprem": null
+          },
+          "put": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "398.05",
+            "dprem": null
+          }
+        },
+        {
+          "label": "OTM2",
+          "strike": "82,200",
+          "call": {
+            "label": "WRITE",
+            "lots": "+31,567",
+            "prem": "291.45",
+            "dprem": "-252.40"
+          },
+          "put": {
+            "label": "BUY",
+            "lots": "+9,062",
+            "prem": "455.30",
+            "dprem": "+123.20"
+          }
+        }
+      ]
+    },
     {
       "day": "2026-11-17",
       "clock": "10:00",
@@ -859,7 +1045,7 @@
       "saved": true,
       "flat": false,
       "realised": -95232.46,
-      "updated_at": "2026-11-17 10:10:14",
+      "updated_at": "2026-11-18 09:50:42",
       "open": {
         "direction": "SHORT",
         "tradingsymbol": "SENSEX26NOVFUT",
@@ -1132,31 +1318,11 @@
     "saved": true,
     "started_on": "15-11-2026",
     "starting_capital": 10000000.0,
-    "capital": 10000000.0,
-    "realised": 0.0,
-    "updated_at": "2026-11-17 17:49:17",
-    "flat": false,
-    "open": {
-      "date": "17-11-2026",
-      "event": "Entry",
-      "time": "15:00",
-      "exit_date": "",
-      "side": "Buy",
-      "signal": "OI day",
-      "pcr": 0.704,
-      "pcr_rank": 6.8,
-      "contract": "NIFTY23NOV26FUT",
-      "exit_reason": "",
-      "price": 25428.0,
-      "points": null,
-      "lots": 37,
-      "capital_before": 10000000.0,
-      "capital_used": 9935166.0,
-      "profit": null,
-      "charges": null,
-      "capital_after": null,
-      "exit_clock": "09:15"
-    },
+    "capital": 9652878.01,
+    "realised": -347121.99,
+    "updated_at": "2026-11-18 09:53:41",
+    "flat": true,
+    "open": null,
     "rows": [
       {
         "date": "17-11-2026",
@@ -1176,8 +1342,27 @@
         "capital_used": 9935166.0,
         "profit": null,
         "charges": null,
-        "capital_after": null,
-        "exit_clock": "09:15"
+        "capital_after": null
+      },
+      {
+        "date": "17-11-2026",
+        "event": "Exit",
+        "time": "09:15",
+        "exit_date": "18-11-2026",
+        "side": "Buy",
+        "signal": "OI day",
+        "pcr": 0.704,
+        "pcr_rank": 6.8,
+        "contract": "NIFTY23NOV26FUT",
+        "exit_reason": "Hit SL 0.5% at the open, closed",
+        "price": 25300.0,
+        "points": -130.0,
+        "lots": 37,
+        "capital_before": 10000000.0,
+        "capital_used": null,
+        "profit": -312650.0,
+        "charges": 34471.99,
+        "capital_after": 9652878.01
       }
     ]
   },
@@ -1186,31 +1371,11 @@
     "saved": true,
     "started_on": "15-11-2026",
     "starting_capital": 10000000.0,
-    "capital": 10000000.0,
-    "realised": 0.0,
-    "updated_at": "2026-11-17 17:49:19",
-    "flat": false,
-    "open": {
-      "date": "17-11-2026",
-      "event": "Entry",
-      "time": "15:00",
-      "exit_date": "",
-      "side": "Buy",
-      "signal": "OI day",
-      "pcr": 0.704,
-      "pcr_rank": 6.8,
-      "contract": "NIFTY23NOV26FUT",
-      "exit_reason": "",
-      "price": 25428.0,
-      "points": null,
-      "lots": 37,
-      "capital_before": 10000000.0,
-      "capital_used": 9935166.0,
-      "profit": null,
-      "charges": null,
-      "capital_after": null,
-      "exit_clock": "09:15"
-    },
+    "capital": 9502139.3,
+    "realised": -497860.7,
+    "updated_at": "2026-11-18 09:56:19",
+    "flat": true,
+    "open": null,
     "rows": [
       {
         "date": "17-11-2026",
@@ -1230,8 +1395,27 @@
         "capital_used": 9935166.0,
         "profit": null,
         "charges": null,
-        "capital_after": null,
-        "exit_clock": "09:15"
+        "capital_after": null
+      },
+      {
+        "date": "17-11-2026",
+        "event": "Exit",
+        "time": "09:30",
+        "exit_date": "18-11-2026",
+        "side": "Buy",
+        "signal": "OI day",
+        "pcr": 0.704,
+        "pcr_rank": 6.8,
+        "contract": "NIFTY23NOV26FUT",
+        "exit_reason": "Hit SL 0.75%, closed",
+        "price": 25237.29,
+        "points": -192.71,
+        "lots": 37,
+        "capital_before": 10000000.0,
+        "capital_used": null,
+        "profit": -463467.55,
+        "charges": 34393.15,
+        "capital_after": 9502139.3
       }
     ]
   },
