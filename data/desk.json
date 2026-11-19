@@ -1,6 +1,99 @@
 {
-  "generated_at": "2026-11-19 14:03 IST",
+  "generated_at": "2026-11-19 14:14 IST",
   "nifty_oi": [
+    {
+      "day": "2026-11-19",
+      "clock": "14:00",
+      "saved_at": "2026-11-19 14:04:35",
+      "expiry": "2026-11-23",
+      "atm": "25,400",
+      "lot_size": 65,
+      "compared_to": "2026-11-19 13:53:36",
+      "totals": "This interval  CE BUY 640 / WRITE 0   PE BUY 0 / WRITE 3,531  (lots)",
+      "baseline": false,
+      "strikes": [
+        {
+          "label": "ITM2",
+          "strike": "25,300",
+          "call": {
+            "label": "SHORT COVER",
+            "lots": "-4,165",
+            "prem": "214.60",
+            "dprem": "+17.15"
+          },
+          "put": {
+            "label": "LONG EXIT",
+            "lots": "-2,288",
+            "prem": "76.50",
+            "dprem": "-9.60"
+          }
+        },
+        {
+          "label": "ITM1",
+          "strike": "25,350",
+          "call": {
+            "label": "SHORT COVER",
+            "lots": "-7,655",
+            "prem": "181.90",
+            "dprem": "+15.25"
+          },
+          "put": {
+            "label": "LONG EXIT",
+            "lots": "-1,800",
+            "prem": "93.50",
+            "dprem": "-11.30"
+          }
+        },
+        {
+          "label": "ATM",
+          "strike": "25,400",
+          "call": {
+            "label": "SHORT COVER",
+            "lots": "-6,004",
+            "prem": "152.00",
+            "dprem": "+13.65"
+          },
+          "put": {
+            "label": "WRITE",
+            "lots": "+1,340",
+            "prem": "113.75",
+            "dprem": "-12.55"
+          }
+        },
+        {
+          "label": "OTM1",
+          "strike": "25,450",
+          "call": {
+            "label": "BUY",
+            "lots": "+640",
+            "prem": "126.05",
+            "dprem": "+11.55"
+          },
+          "put": {
+            "label": "WRITE",
+            "lots": "+1,233",
+            "prem": "137.25",
+            "dprem": "-13.40"
+          }
+        },
+        {
+          "label": "OTM2",
+          "strike": "25,500",
+          "call": {
+            "label": "SHORT COVER",
+            "lots": "-8,666",
+            "prem": "102.65",
+            "dprem": "+10.90"
+          },
+          "put": {
+            "label": "WRITE",
+            "lots": "+958",
+            "prem": "164.10",
+            "dprem": "-15.90"
+          }
+        }
+      ]
+    },
     {
       "day": "2026-11-19",
       "clock": "13:45",
@@ -4281,6 +4374,99 @@
     }
   ],
   "sensex_oi": [
+    {
+      "day": "2026-11-19",
+      "clock": "14:00",
+      "saved_at": "2026-11-19 14:05:06",
+      "expiry": "2026-11-19",
+      "atm": "82,700",
+      "lot_size": 20,
+      "compared_to": "2026-11-19 13:56:57",
+      "totals": "This interval  CE BUY 0 / WRITE 0   PE BUY 0 / WRITE 87,758  (lots)",
+      "baseline": false,
+      "strikes": [
+        {
+          "label": "ITM2",
+          "strike": "82,500",
+          "call": {
+            "label": "SHORT COVER",
+            "lots": "-55,651",
+            "prem": "236.95",
+            "dprem": "+78.00"
+          },
+          "put": {
+            "label": "LONG EXIT",
+            "lots": "-5,296",
+            "prem": "36.20",
+            "dprem": "-39.70"
+          }
+        },
+        {
+          "label": "ITM1",
+          "strike": "82,600",
+          "call": {
+            "label": "SHORT COVER",
+            "lots": "-71,820",
+            "prem": "163.85",
+            "dprem": "+60.05"
+          },
+          "put": {
+            "label": "WRITE",
+            "lots": "+48,693",
+            "prem": "62.90",
+            "dprem": "-56.90"
+          }
+        },
+        {
+          "label": "ATM",
+          "strike": "82,700",
+          "call": {
+            "label": "SHORT COVER",
+            "lots": "-55,889",
+            "prem": "106.50",
+            "dprem": "+41.85"
+          },
+          "put": {
+            "label": "WRITE",
+            "lots": "+28,840",
+            "prem": "105.00",
+            "dprem": "-75.95"
+          }
+        },
+        {
+          "label": "OTM1",
+          "strike": "82,800",
+          "call": {
+            "label": "SHORT COVER",
+            "lots": "-48,499",
+            "prem": "65.00",
+            "dprem": "+26.35"
+          },
+          "put": {
+            "label": "WRITE",
+            "lots": "+10,225",
+            "prem": "163.60",
+            "dprem": "-90.80"
+          }
+        },
+        {
+          "label": "OTM2",
+          "strike": "82,900",
+          "call": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "37.05",
+            "dprem": null
+          },
+          "put": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "237.30",
+            "dprem": null
+          }
+        }
+      ]
+    },
     {
       "day": "2026-11-19",
       "clock": "13:45",
@@ -9580,40 +9766,11 @@
     "saved": true,
     "started_on": "13-11-2026",
     "starting_capital": 10000000.0,
-    "capital": 10000000.0,
-    "realised": 0.0,
-    "updated_at": "2026-11-18 15:14:54",
-    "flat": false,
-    "open": {
-      "date": "18-11-2026",
-      "event": "Entry",
-      "time": "15:00",
-      "exit_date": "",
-      "nifty": 25216.55,
-      "side": "Short",
-      "call": "Sell",
-      "call_strike": "25200 call",
-      "call_price": 187.5,
-      "put": "Buy",
-      "put_strike": "25200 put",
-      "put_price": 143.5,
-      "exit_quote": "",
-      "exit_reason": "",
-      "signal": "",
-      "pcr": null,
-      "pcr_rank": null,
-      "points": null,
-      "lots": 37,
-      "capital_before": 10000000.0,
-      "capital_used": 9935166.0,
-      "profit": null,
-      "charges": null,
-      "capital_after": null,
-      "exit_clock": "14:00",
-      "check_clock": "",
-      "fallback_clock": "",
-      "expiry": "2026-11-23"
-    },
+    "capital": 9576373.63,
+    "realised": -423626.37,
+    "updated_at": "2026-11-19 14:05:40",
+    "flat": true,
+    "open": null,
     "rows": [
       {
         "date": "18-11-2026",
@@ -9639,11 +9796,33 @@
         "capital_used": 9935166.0,
         "profit": null,
         "charges": null,
-        "capital_after": null,
-        "exit_clock": "14:00",
-        "check_clock": "",
-        "fallback_clock": "",
-        "expiry": "2026-11-23"
+        "capital_after": null
+      },
+      {
+        "date": "18-11-2026",
+        "event": "Exit",
+        "time": "14:00",
+        "exit_date": "19-11-2026",
+        "nifty": 25393.0,
+        "side": "Short",
+        "call": "Buy",
+        "call_strike": "25200 call",
+        "call_price": 271.55,
+        "put": "Sell",
+        "put_strike": "25200 put",
+        "put_price": 56.1,
+        "exit_quote": "Market",
+        "exit_reason": "",
+        "signal": "",
+        "pcr": null,
+        "pcr_rank": null,
+        "points": -175.45,
+        "lots": 37,
+        "capital_before": 10000000.0,
+        "capital_used": null,
+        "profit": -421957.25,
+        "charges": 1669.12,
+        "capital_after": 9576373.63
       }
     ]
   },
@@ -9652,40 +9831,11 @@
     "saved": true,
     "started_on": "13-11-2026",
     "starting_capital": 10000000.0,
-    "capital": 9585437.21,
-    "realised": -414562.79,
-    "updated_at": "2026-11-19 10:25:27",
-    "flat": false,
-    "open": {
-      "date": "18-11-2026",
-      "event": "Entry",
-      "time": "15:00",
-      "exit_date": "",
-      "nifty": 25216.55,
-      "side": "Short",
-      "call": "Sell",
-      "call_strike": "25200 call",
-      "call_price": 187.5,
-      "put": "Buy",
-      "put_strike": "25200 put",
-      "put_price": 143.5,
-      "exit_quote": "",
-      "exit_reason": "",
-      "signal": "Loka",
-      "pcr": 1.002,
-      "pcr_rank": 51.3,
-      "points": null,
-      "lots": 35,
-      "capital_before": 9585437.21,
-      "capital_used": 9398130.0,
-      "profit": null,
-      "charges": null,
-      "capital_after": null,
-      "exit_clock": "10:00",
-      "check_clock": "10:00",
-      "fallback_clock": "14:00",
-      "expiry": "2026-11-23"
-    },
+    "capital": 9184704.47,
+    "realised": -815295.53,
+    "updated_at": "2026-11-19 14:06:51",
+    "flat": true,
+    "open": null,
     "rows": [
       {
         "date": "18-11-2026",
@@ -9711,11 +9861,33 @@
         "capital_used": 9398130.0,
         "profit": null,
         "charges": null,
-        "capital_after": null,
-        "exit_clock": "10:00",
-        "check_clock": "10:00",
-        "fallback_clock": "14:00",
-        "expiry": "2026-11-23"
+        "capital_after": null
+      },
+      {
+        "date": "18-11-2026",
+        "event": "Exit",
+        "time": "14:00",
+        "exit_date": "19-11-2026",
+        "nifty": 25393.0,
+        "side": "Short",
+        "call": "Buy",
+        "call_strike": "25200 call",
+        "call_price": 271.55,
+        "put": "Sell",
+        "put_strike": "25200 put",
+        "put_price": 56.1,
+        "exit_quote": "Market",
+        "exit_reason": "14:00 (not in profit at 10:00)",
+        "signal": "Loka",
+        "pcr": 1.002,
+        "pcr_rank": 51.3,
+        "points": -175.45,
+        "lots": 35,
+        "capital_before": 9585437.21,
+        "capital_used": null,
+        "profit": -399148.75,
+        "charges": 1583.99,
+        "capital_after": 9184704.47
       },
       {
         "date": "17-11-2026",
@@ -9776,40 +9948,11 @@
     "saved": true,
     "started_on": "13-11-2026",
     "starting_capital": 10000000.0,
-    "capital": 9585437.21,
-    "realised": -414562.79,
-    "updated_at": "2026-11-19 10:28:07",
-    "flat": false,
-    "open": {
-      "date": "18-11-2026",
-      "event": "Entry",
-      "time": "15:00",
-      "exit_date": "",
-      "nifty": 25216.55,
-      "side": "Short",
-      "call": "Sell",
-      "call_strike": "25200 call",
-      "call_price": 187.5,
-      "put": "Buy",
-      "put_strike": "25200 put",
-      "put_price": 143.5,
-      "exit_quote": "",
-      "exit_reason": "",
-      "signal": "Loka",
-      "pcr": 1.002,
-      "pcr_rank": 49.2,
-      "points": null,
-      "lots": 35,
-      "capital_before": 9585437.21,
-      "capital_used": 9398130.0,
-      "profit": null,
-      "charges": null,
-      "capital_after": null,
-      "exit_clock": "10:15",
-      "check_clock": "10:15",
-      "fallback_clock": "14:00",
-      "expiry": "2026-11-23"
-    },
+    "capital": 9184704.47,
+    "realised": -815295.53,
+    "updated_at": "2026-11-19 14:11:02",
+    "flat": true,
+    "open": null,
     "rows": [
       {
         "date": "18-11-2026",
@@ -9835,11 +9978,33 @@
         "capital_used": 9398130.0,
         "profit": null,
         "charges": null,
-        "capital_after": null,
-        "exit_clock": "10:15",
-        "check_clock": "10:15",
-        "fallback_clock": "14:00",
-        "expiry": "2026-11-23"
+        "capital_after": null
+      },
+      {
+        "date": "18-11-2026",
+        "event": "Exit",
+        "time": "14:00",
+        "exit_date": "19-11-2026",
+        "nifty": 25393.0,
+        "side": "Short",
+        "call": "Buy",
+        "call_strike": "25200 call",
+        "call_price": 271.55,
+        "put": "Sell",
+        "put_strike": "25200 put",
+        "put_price": 56.1,
+        "exit_quote": "Market",
+        "exit_reason": "14:00 (not in profit at 10:15)",
+        "signal": "Loka",
+        "pcr": 1.002,
+        "pcr_rank": 49.2,
+        "points": -175.45,
+        "lots": 35,
+        "capital_before": 9585437.21,
+        "capital_used": null,
+        "profit": -399148.75,
+        "charges": 1583.99,
+        "capital_after": 9184704.47
       },
       {
         "date": "17-11-2026",
@@ -9900,31 +10065,11 @@
     "saved": true,
     "started_on": "15-11-2026",
     "starting_capital": 10000000.0,
-    "capital": 9349333.38,
-    "realised": -650666.62,
-    "updated_at": "2026-11-18 15:15:02",
-    "flat": false,
-    "open": {
-      "date": "18-11-2026",
-      "event": "Entry",
-      "time": "15:00",
-      "exit_date": "",
-      "side": "Short",
-      "signal": "Loka",
-      "pcr": 1.002,
-      "pcr_rank": 49.2,
-      "contract": "NIFTY23NOV26FUT",
-      "exit_reason": "",
-      "price": 25254.4,
-      "points": null,
-      "lots": 34,
-      "capital_before": 9349333.38,
-      "capital_used": 9129612.0,
-      "profit": null,
-      "charges": null,
-      "capital_after": null,
-      "exit_clock": "14:00"
-    },
+    "capital": 8962559.69,
+    "realised": -1037440.31,
+    "updated_at": "2026-11-19 14:13:41",
+    "flat": true,
+    "open": null,
     "rows": [
       {
         "date": "18-11-2026",
@@ -9944,8 +10089,27 @@
         "capital_used": 9129612.0,
         "profit": null,
         "charges": null,
-        "capital_after": null,
-        "exit_clock": "14:00"
+        "capital_after": null
+      },
+      {
+        "date": "18-11-2026",
+        "event": "Exit",
+        "time": "14:00",
+        "exit_date": "19-11-2026",
+        "side": "Short",
+        "signal": "Loka",
+        "pcr": 1.002,
+        "pcr_rank": 49.2,
+        "contract": "NIFTY23NOV26FUT",
+        "exit_reason": "Closed at the 14:00 open",
+        "price": 25413.1,
+        "points": -160.7,
+        "lots": 34,
+        "capital_before": 9349333.38,
+        "capital_used": null,
+        "profit": -355147.0,
+        "charges": 31626.69,
+        "capital_after": 8962559.69
       },
       {
         "date": "17-11-2026",
@@ -10087,31 +10251,11 @@
     "saved": true,
     "started_on": "15-11-2026",
     "starting_capital": 10000000.0,
-    "capital": 9502139.3,
-    "realised": -497860.7,
-    "updated_at": "2026-11-18 15:16:54",
-    "flat": false,
-    "open": {
-      "date": "18-11-2026",
-      "event": "Entry",
-      "time": "15:00",
-      "exit_date": "",
-      "side": "Short",
-      "signal": "Loka",
-      "pcr": 1.002,
-      "pcr_rank": 49.2,
-      "contract": "NIFTY23NOV26FUT",
-      "exit_reason": "",
-      "price": 25254.4,
-      "points": null,
-      "lots": 35,
-      "capital_before": 9502139.3,
-      "capital_used": 9398130.0,
-      "profit": null,
-      "charges": null,
-      "capital_after": null,
-      "exit_clock": "14:00"
-    },
+    "capital": 9103991.3,
+    "realised": -896008.7,
+    "updated_at": "2026-11-19 14:14:02",
+    "flat": true,
+    "open": null,
     "rows": [
       {
         "date": "18-11-2026",
@@ -10131,8 +10275,27 @@
         "capital_used": 9398130.0,
         "profit": null,
         "charges": null,
-        "capital_after": null,
-        "exit_clock": "14:00"
+        "capital_after": null
+      },
+      {
+        "date": "18-11-2026",
+        "event": "Exit",
+        "time": "14:00",
+        "exit_date": "19-11-2026",
+        "side": "Short",
+        "signal": "Loka",
+        "pcr": 1.002,
+        "pcr_rank": 49.2,
+        "contract": "NIFTY23NOV26FUT",
+        "exit_reason": "Closed at the 14:00 open",
+        "price": 25413.1,
+        "points": -160.7,
+        "lots": 35,
+        "capital_before": 9502139.3,
+        "capital_used": null,
+        "profit": -365592.5,
+        "charges": 32555.5,
+        "capital_after": 9103991.3
       },
       {
         "date": "17-11-2026",
