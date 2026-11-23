@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23 14:46 IST",
+  "generated_at": "2026-11-23 15:01 IST",
   "nifty_oi": [
     {
       "day": "2026-11-23",
@@ -1588,6 +1588,18 @@
   "nifty_fut": [
     {
       "day": "2026-11-23",
+      "clock": "15:00",
+      "saved_at": "2026-11-23 15:01:06",
+      "contract": "NIFTY23NOV26FUT",
+      "expiry": "2026-11-23",
+      "label": "LONG EXIT",
+      "lots": "829 lots",
+      "since": "2026-11-23 14:46:03",
+      "price": "Price 25,437.80 \u2192 25,384.00  (-53.80)",
+      "oi": "Open interest 76,412 \u2192 75,583 lots"
+    },
+    {
+      "day": "2026-11-23",
       "clock": "14:45",
       "saved_at": "2026-11-23 14:46:03",
       "contract": "NIFTY23NOV26FUT",
@@ -1696,6 +1708,18 @@
     }
   ],
   "sensex_fut": [
+    {
+      "day": "2026-11-23",
+      "clock": "15:00",
+      "saved_at": "2026-11-23 15:01:07",
+      "contract": "SENSEX26NOVFUT",
+      "expiry": "2026-11-26",
+      "label": "LONG EXIT",
+      "lots": "21 lots",
+      "since": "2026-11-23 14:46:03",
+      "price": "Price 82,620.55 \u2192 82,497.50  (-123.05)",
+      "oi": "Open interest 1,501 \u2192 1,480 lots"
+    },
     {
       "day": "2026-11-23",
       "clock": "14:45",
@@ -2411,5 +2435,32 @@
       "summary": "No position. Sensex 49.2% is outside base 20/80 and filler 30/70. Nifty 64.4% is outside base 10/90 and filler 30/70."
     }
   },
-  "fut_days": []
+  "fut_days": [
+    {
+      "name": "NIFTY",
+      "day": "2026-11-23",
+      "label": "LONG UNWIND",
+      "lines": [
+        "NIFTY FUT DAY \u2014 23 Nov 2026 15:01",
+        "NIFTY23NOV26FUT  expiry 2026-11-23",
+        "2026-11-23 13:04:14 \u2192 2026-11-23 15:01:06  LONG UNWIND",
+        "Lots 80,556 \u2192 75,583  (-4,973, -6.17%)",
+        "Price 25,480.00 \u2192 25,384.00  (-96.00)",
+        "Whole session. Futures price and futures open interest."
+      ]
+    },
+    {
+      "name": "SENSEX",
+      "day": "2026-11-23",
+      "label": "LONG UNWIND",
+      "lines": [
+        "SENSEX FUT DAY \u2014 23 Nov 2026 15:01",
+        "SENSEX26NOVFUT  expiry 2026-11-26",
+        "2026-11-23 13:04:14 \u2192 2026-11-23 15:01:07  LONG UNWIND",
+        "Lots 1,544 \u2192 1,480  (-64, -4.15%)",
+        "Price 82,802.00 \u2192 82,497.50  (-304.50)",
+        "Whole session. Futures price and futures open interest."
+      ]
+    }
+  ]
 }
