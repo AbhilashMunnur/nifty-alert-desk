@@ -1,6 +1,99 @@
 {
-  "generated_at": "2026-11-23 15:32 IST",
+  "generated_at": "2026-11-23 15:44 IST",
   "nifty_oi": [
+    {
+      "day": "2026-11-23",
+      "clock": "15:40",
+      "saved_at": "2026-11-23 15:43:43",
+      "expiry": "2026-11-23",
+      "atm": "25,350",
+      "lot_size": 65,
+      "compared_to": "2026-11-23 15:24:37",
+      "totals": "This interval  CE BUY 0 / WRITE 44,294   PE BUY 0 / WRITE 0  (lots)",
+      "baseline": false,
+      "strikes": [
+        {
+          "label": "ITM2",
+          "strike": "25,250",
+          "call": {
+            "label": "LONG EXIT",
+            "lots": "-2,623",
+            "prem": "99.70",
+            "dprem": "-6.00"
+          },
+          "put": {
+            "label": "OI FALL",
+            "lots": "-42,600",
+            "prem": "0.05",
+            "dprem": "-0.80"
+          }
+        },
+        {
+          "label": "ITM1",
+          "strike": "25,300",
+          "call": {
+            "label": "LONG EXIT",
+            "lots": "-13,567",
+            "prem": "49.70",
+            "dprem": "-6.90"
+          },
+          "put": {
+            "label": "LONG EXIT",
+            "lots": "-113,420",
+            "prem": "0.05",
+            "dprem": "-2.20"
+          }
+        },
+        {
+          "label": "ATM",
+          "strike": "25,350",
+          "call": {
+            "label": "WRITE",
+            "lots": "+44,294",
+            "prem": "0.05",
+            "dprem": "-16.45"
+          },
+          "put": {
+            "label": "LONG EXIT",
+            "lots": "-74,220",
+            "prem": "0.35",
+            "dprem": "-11.55"
+          }
+        },
+        {
+          "label": "OTM1",
+          "strike": "25,400",
+          "call": {
+            "label": "OI FALL",
+            "lots": "-49,181",
+            "prem": "0.05",
+            "dprem": "-1.90"
+          },
+          "put": {
+            "label": "SHORT COVER",
+            "lots": "-94,368",
+            "prem": "50.20",
+            "dprem": "+3.55"
+          }
+        },
+        {
+          "label": "OTM2",
+          "strike": "25,450",
+          "call": {
+            "label": "OI FALL",
+            "lots": "-107,149",
+            "prem": "0.05",
+            "dprem": "-0.70"
+          },
+          "put": {
+            "label": "SHORT COVER",
+            "lots": "-19,197",
+            "prem": "100.10",
+            "dprem": "+4.35"
+          }
+        }
+      ]
+    },
     {
       "day": "2026-11-23",
       "clock": "15:30",
@@ -1212,6 +1305,99 @@
     }
   ],
   "sensex_oi": [
+    {
+      "day": "2026-11-23",
+      "clock": "15:40",
+      "saved_at": "2026-11-23 15:43:57",
+      "expiry": "2026-11-26",
+      "atm": "82,400",
+      "lot_size": 20,
+      "compared_to": "2026-11-23 15:24:51",
+      "totals": "This interval  CE BUY 2,787 / WRITE 0   PE BUY 0 / WRITE 6,321  (lots)",
+      "baseline": false,
+      "strikes": [
+        {
+          "label": "ITM2",
+          "strike": "82,200",
+          "call": {
+            "label": "SHORT COVER",
+            "lots": "-50",
+            "prem": "743.00",
+            "dprem": "+71.40"
+          },
+          "put": {
+            "label": "WRITE",
+            "lots": "+1,956",
+            "prem": "391.10",
+            "dprem": "-95.05"
+          }
+        },
+        {
+          "label": "ITM1",
+          "strike": "82,300",
+          "call": {
+            "label": "BUY",
+            "lots": "+252",
+            "prem": "688.15",
+            "dprem": "+68.80"
+          },
+          "put": {
+            "label": "WRITE",
+            "lots": "+168",
+            "prem": "435.15",
+            "dprem": "-101.45"
+          }
+        },
+        {
+          "label": "ATM",
+          "strike": "82,400",
+          "call": {
+            "label": "BUY",
+            "lots": "+1,087",
+            "prem": "630.00",
+            "dprem": "+57.75"
+          },
+          "put": {
+            "label": "WRITE",
+            "lots": "+734",
+            "prem": "488.00",
+            "dprem": "-101.80"
+          }
+        },
+        {
+          "label": "OTM1",
+          "strike": "82,500",
+          "call": {
+            "label": "BUY",
+            "lots": "+1,022",
+            "prem": "575.00",
+            "dprem": "+47.00"
+          },
+          "put": {
+            "label": "WRITE",
+            "lots": "+3,069",
+            "prem": "539.70",
+            "dprem": "-104.50"
+          }
+        },
+        {
+          "label": "OTM2",
+          "strike": "82,600",
+          "call": {
+            "label": "BUY",
+            "lots": "+426",
+            "prem": "529.20",
+            "dprem": "+42.05"
+          },
+          "put": {
+            "label": "WRITE",
+            "lots": "+394",
+            "prem": "577.60",
+            "dprem": "-124.60"
+          }
+        }
+      ]
+    },
     {
       "day": "2026-11-23",
       "clock": "15:30",
@@ -3227,32 +3413,5 @@
       "summary": "No position. Sensex 49.2% is outside base 20/80 and filler 30/70. Nifty 64.4% is outside base 10/90 and filler 30/70."
     }
   },
-  "fut_days": [
-    {
-      "name": "NIFTY",
-      "day": "2026-11-23",
-      "label": "LONG UNWIND",
-      "lines": [
-        "NIFTY FUT DAY \u2014 23 Nov 2026 15:31",
-        "NIFTY23NOV26FUT  expiry 2026-11-23",
-        "2026-11-23 13:04:14 \u2192 2026-11-23 15:31:11  LONG UNWIND",
-        "Lots 80,556 \u2192 71,621  (-8,935, -11.09%)",
-        "Price 25,480.00 \u2192 25,351.00  (-129.00)",
-        "Whole session. Futures price and futures open interest."
-      ]
-    },
-    {
-      "name": "SENSEX",
-      "day": "2026-11-23",
-      "label": "LONG UNWIND",
-      "lines": [
-        "SENSEX FUT DAY \u2014 23 Nov 2026 15:31",
-        "SENSEX26NOVFUT  expiry 2026-11-26",
-        "2026-11-23 13:04:14 \u2192 2026-11-23 15:31:12  LONG UNWIND",
-        "Lots 1,544 \u2192 1,454  (-90, -5.83%)",
-        "Price 82,802.00 \u2192 82,496.00  (-306.00)",
-        "Whole session. Futures price and futures open interest."
-      ]
-    }
-  ]
+  "fut_days": []
 }
