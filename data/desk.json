@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26 23:58 IST",
+  "generated_at": "2026-11-27 00:00 IST",
   "nifty_oi": [
     {
       "day": "2026-11-26",
@@ -3799,88 +3799,88 @@
       "expiry": "2026-12-01",
       "atm": "25,800",
       "lot_size": 65,
-      "compared_to": "2026-11-25 15:46:03",
-      "totals": "This interval  CE BUY 0 / WRITE 128,144   PE BUY 122,764 / WRITE 0  (lots)",
-      "baseline": false,
+      "compared_to": null,
+      "totals": "This interval  CE BUY 0 / WRITE 0   PE BUY 0 / WRITE 0  (lots)",
+      "baseline": true,
       "strikes": [
         {
           "label": "ITM2",
           "strike": "25,700",
           "call": {
-            "label": "WRITE",
-            "lots": "+63",
+            "label": "n/a",
+            "lots": null,
             "prem": "232.00",
-            "dprem": "-53.25"
+            "dprem": null
           },
           "put": {
-            "label": "BUY",
-            "lots": "+11,780",
+            "label": "n/a",
+            "lots": null,
             "prem": "187.90",
-            "dprem": "+28.15"
+            "dprem": null
           }
         },
         {
           "label": "ITM1",
           "strike": "25,750",
           "call": {
-            "label": "WRITE",
-            "lots": "+6,743",
+            "label": "n/a",
+            "lots": null,
             "prem": "206.50",
-            "dprem": "-50.70"
+            "dprem": null
           },
           "put": {
-            "label": "BUY",
-            "lots": "+21,778",
+            "label": "n/a",
+            "lots": null,
             "prem": "212.05",
-            "dprem": "+30.25"
+            "dprem": null
           }
         },
         {
           "label": "ATM",
           "strike": "25,800",
           "call": {
-            "label": "WRITE",
-            "lots": "+50,249",
+            "label": "n/a",
+            "lots": null,
             "prem": "182.60",
-            "dprem": "-48.30"
+            "dprem": null
           },
           "put": {
-            "label": "BUY",
-            "lots": "+43,179",
+            "label": "n/a",
+            "lots": null,
             "prem": "237.20",
-            "dprem": "+32.10"
+            "dprem": null
           }
         },
         {
           "label": "OTM1",
           "strike": "25,850",
           "call": {
-            "label": "WRITE",
-            "lots": "+31,634",
+            "label": "n/a",
+            "lots": null,
             "prem": "160.55",
-            "dprem": "-45.60"
+            "dprem": null
           },
           "put": {
-            "label": "BUY",
-            "lots": "+17,848",
+            "label": "n/a",
+            "lots": null,
             "prem": "265.50",
-            "dprem": "+35.00"
+            "dprem": null
           }
         },
         {
           "label": "OTM2",
           "strike": "25,900",
           "call": {
-            "label": "WRITE",
-            "lots": "+39,455",
+            "label": "n/a",
+            "lots": null,
             "prem": "140.90",
-            "dprem": "-41.55"
+            "dprem": null
           },
           "put": {
-            "label": "BUY",
-            "lots": "+28,179",
+            "label": "n/a",
+            "lots": null,
             "prem": "295.45",
-            "dprem": "+38.35"
+            "dprem": null
           }
         }
       ]
@@ -11591,9 +11591,9 @@
       "expiry": "2026-11-26",
       "atm": "83,800",
       "lot_size": 20,
-      "compared_to": "2026-11-25 15:46:37",
-      "totals": "This interval  CE BUY 0 / WRITE 136,517   PE BUY 0 / WRITE 105,268  (lots)",
-      "baseline": false,
+      "compared_to": null,
+      "totals": "This interval  CE BUY 0 / WRITE 0   PE BUY 0 / WRITE 0  (lots)",
+      "baseline": true,
       "strikes": [
         {
           "label": "ITM2",
@@ -11615,64 +11615,64 @@
           "label": "ITM1",
           "strike": "83,700",
           "call": {
-            "label": "WRITE",
-            "lots": "+3,776",
+            "label": "n/a",
+            "lots": null,
             "prem": "350.10",
-            "dprem": "-204.00"
+            "dprem": null
           },
           "put": {
-            "label": "WRITE",
-            "lots": "+46,681",
+            "label": "n/a",
+            "lots": null,
             "prem": "233.85",
-            "dprem": "-17.85"
+            "dprem": null
           }
         },
         {
           "label": "ATM",
           "strike": "83,800",
           "call": {
-            "label": "WRITE",
-            "lots": "+16,779",
+            "label": "n/a",
+            "lots": null,
             "prem": "297.05",
-            "dprem": "-199.75"
+            "dprem": null
           },
           "put": {
-            "label": "WRITE",
-            "lots": "+58,587",
+            "label": "n/a",
+            "lots": null,
             "prem": "281.05",
-            "dprem": "-11.50"
+            "dprem": null
           }
         },
         {
           "label": "OTM1",
           "strike": "83,900",
           "call": {
-            "label": "WRITE",
-            "lots": "+31,730",
+            "label": "n/a",
+            "lots": null,
             "prem": "249.75",
-            "dprem": "-191.90"
+            "dprem": null
           },
           "put": {
-            "label": "OI BUILD",
-            "lots": "+76,020",
+            "label": "n/a",
+            "lots": null,
             "prem": "335.25",
-            "dprem": "-2.20"
+            "dprem": null
           }
         },
         {
           "label": "OTM2",
           "strike": "84,000",
           "call": {
-            "label": "WRITE",
-            "lots": "+84,232",
+            "label": "n/a",
+            "lots": null,
             "prem": "207.75",
-            "dprem": "-183.90"
+            "dprem": null
           },
           "put": {
-            "label": "OI BUILD",
-            "lots": "+102,443",
+            "label": "n/a",
+            "lots": null,
             "prem": "392.90",
-            "dprem": "+5.50"
+            "dprem": null
           }
         }
       ]
@@ -15786,11 +15786,11 @@
       "saved_at": "2026-11-26 09:31:17",
       "contract": "NIFTY29DEC26FUT",
       "expiry": "2026-12-29",
-      "label": "LONG EXIT",
-      "lots": "337 lots",
-      "since": "2026-11-25 15:31:21",
-      "price": "Price 25,940.00 \u2192 25,934.00  (-6.00)",
-      "oi": "Open interest 186,051 \u2192 185,714 lots"
+      "label": "BASELINE",
+      "lots": null,
+      "since": null,
+      "price": "Price 25,934.00",
+      "oi": "Open interest 185,714 lots"
     },
     {
       "day": "2026-11-25",
@@ -16520,11 +16520,11 @@
       "saved_at": "2026-11-26 09:31:18",
       "contract": "SENSEX26NOVFUT",
       "expiry": "2026-11-26",
-      "label": "SHORT COVERING",
-      "lots": "52 lots",
-      "since": "2026-11-25 15:31:21",
-      "price": "Price 84,038.45 \u2192 84,149.80  (+111.35)",
-      "oi": "Open interest 1,347 \u2192 1,295 lots"
+      "label": "BASELINE",
+      "lots": null,
+      "since": null,
+      "price": "Price 84,149.80",
+      "oi": "Open interest 1,295 lots"
     },
     {
       "day": "2026-11-25",
@@ -17599,32 +17599,6 @@
         "2026-11-26 09:31:18 \u2192 2026-11-26 15:31:16  SHORT COVERING",
         "Lots 1,295 \u2192 923  (-372, -28.73%)",
         "Price 84,149.80 \u2192 84,350.00  (+200.20)",
-        "Whole session. Futures price and futures open interest."
-      ]
-    },
-    {
-      "name": "NIFTY",
-      "day": "2026-11-25",
-      "label": "LONG BUILDUP",
-      "lines": [
-        "NIFTY FUT DAY \u2014 25 Nov 2026 16:03",
-        "NIFTY29DEC26FUT  expiry 2026-12-29",
-        "2026-11-25 09:31:05 \u2192 2026-11-25 15:16:03  LONG BUILDUP",
-        "Lots 176,027 \u2192 185,338  (+9,311, +5.29%)",
-        "Price 25,897.00 \u2192 25,945.00  (+48.00)",
-        "Whole session. Futures price and futures open interest."
-      ]
-    },
-    {
-      "name": "SENSEX",
-      "day": "2026-11-25",
-      "label": "SHORT COVERING",
-      "lines": [
-        "SENSEX FUT DAY \u2014 25 Nov 2026 16:03",
-        "SENSEX26NOVFUT  expiry 2026-11-26",
-        "2026-11-25 09:31:06 \u2192 2026-11-25 15:16:04  SHORT COVERING",
-        "Lots 1,505 \u2192 1,346  (-159, -10.56%)",
-        "Price 83,951.65 \u2192 84,070.35  (+118.70)",
         "Whole session. Futures price and futures open interest."
       ]
     }
