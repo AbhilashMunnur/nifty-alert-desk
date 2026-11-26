@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26 15:14 IST",
+  "generated_at": "2026-11-26 15:16 IST",
   "nifty_oi": [
     {
       "day": "2026-11-26",
@@ -13284,6 +13284,18 @@
   "nifty_fut": [
     {
       "day": "2026-11-26",
+      "clock": "15:15",
+      "saved_at": "2026-11-26 15:16:03",
+      "contract": "NIFTY29DEC26FUT",
+      "expiry": "2026-12-29",
+      "label": "NEW SELLING",
+      "lots": "216 lots",
+      "since": "2026-11-26 15:01:16",
+      "price": "Price 26,038.00 \u2192 26,031.60  (-6.40)",
+      "oi": "Open interest 194,827 \u2192 195,043 lots"
+    },
+    {
+      "day": "2026-11-26",
       "clock": "15:00",
       "saved_at": "2026-11-26 15:01:16",
       "contract": "NIFTY29DEC26FUT",
@@ -13992,6 +14004,18 @@
     }
   ],
   "sensex_fut": [
+    {
+      "day": "2026-11-26",
+      "clock": "15:15",
+      "saved_at": "2026-11-26 15:16:04",
+      "contract": "SENSEX26NOVFUT",
+      "expiry": "2026-11-26",
+      "label": "LONG EXIT",
+      "lots": "38 lots",
+      "since": "2026-11-26 15:01:17",
+      "price": "Price 84,342.50 \u2192 84,340.00  (-2.50)",
+      "oi": "Open interest 1,041 \u2192 1,003 lots"
+    },
     {
       "day": "2026-11-26",
       "clock": "15:00",
@@ -15274,40 +15298,76 @@
     ]
   },
   "paper_decision": {
-    "day": "2026-11-25",
-    "checked_at": "2026-11-25 14:15:45",
+    "day": "2026-11-26",
+    "checked_at": "2026-11-26 14:16:01",
     "scripts": [
       {
+        "script": "BANKNIFTY",
+        "spot": 63366.25,
+        "pcr": 0.915,
+        "rank": 0.5085,
+        "tier": "",
+        "side": "",
+        "expiry": "2026-12-29",
+        "reason": "BankNifty 50.8% is outside base 20/80 and filler 30/70."
+      },
+      {
         "script": "SENSEX",
-        "spot": 83859.46,
-        "pcr": 0.7149,
-        "rank": 0.322,
+        "spot": 83875.61,
+        "pcr": 1.0245,
+        "rank": 0.4915,
         "tier": "",
         "side": "",
         "expiry": "2026-11-26",
-        "reason": "Sensex 32.2% is outside base 20/80 and filler 30/70."
+        "reason": "Sensex 49.1% is outside base 20/80 and filler 30/70."
       },
       {
         "script": "NIFTY",
-        "spot": 25757.0,
-        "pcr": 0.7854,
-        "rank": 0.4576,
+        "spot": 25781.4,
+        "pcr": 0.9464,
+        "rank": 0.661,
         "tier": "",
         "side": "",
         "expiry": "2026-12-01",
-        "reason": "Nifty 45.8% is outside base 10/90 and filler 30/70."
+        "reason": "Nifty 66.1% is outside base 10/90 and filler 30/70."
       }
     ],
     "synthetic": {
       "taken": false,
-      "summary": "No position. Sensex 32.2% is outside base 20/80 and filler 30/70. Nifty 45.8% is outside base 10/90 and filler 30/70."
+      "summary": "No position. BankNifty 50.8% is outside base 20/80 and filler 30/70. Sensex 49.1% is outside base 20/80 and filler 30/70. Nifty 66.1% is outside base 10/90 and filler 30/70."
     },
     "option_buy": {
       "taken": false,
-      "summary": "No position. Sensex 32.2% is outside base 20/80 and filler 30/70. Nifty 45.8% is outside base 10/90 and filler 30/70."
+      "summary": "No position. BankNifty 50.8% is outside base 20/80 and filler 30/70. Sensex 49.1% is outside base 20/80 and filler 30/70. Nifty 66.1% is outside base 10/90 and filler 30/70."
     }
   },
   "fut_days": [
+    {
+      "name": "NIFTY",
+      "day": "2026-11-26",
+      "label": "LONG BUILDUP",
+      "lines": [
+        "NIFTY FUT DAY \u2014 26 Nov 2026 15:16",
+        "NIFTY29DEC26FUT  expiry 2026-12-29",
+        "2026-11-26 09:31:17 \u2192 2026-11-26 15:16:03  LONG BUILDUP",
+        "Lots 185,714 \u2192 195,043  (+9,329, +5.02%)",
+        "Price 25,934.00 \u2192 26,031.60  (+97.60)",
+        "Whole session. Futures price and futures open interest."
+      ]
+    },
+    {
+      "name": "SENSEX",
+      "day": "2026-11-26",
+      "label": "SHORT COVERING",
+      "lines": [
+        "SENSEX FUT DAY \u2014 26 Nov 2026 15:16",
+        "SENSEX26NOVFUT  expiry 2026-11-26",
+        "2026-11-26 09:31:18 \u2192 2026-11-26 15:16:04  SHORT COVERING",
+        "Lots 1,295 \u2192 1,003  (-292, -22.55%)",
+        "Price 84,149.80 \u2192 84,340.00  (+190.20)",
+        "Whole session. Futures price and futures open interest."
+      ]
+    },
     {
       "name": "NIFTY",
       "day": "2026-11-25",
