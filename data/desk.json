@@ -1,6 +1,99 @@
 {
-  "generated_at": "2026-11-26 14:01 IST",
+  "generated_at": "2026-11-26 14:02 IST",
   "nifty_oi": [
+    {
+      "day": "2026-11-26",
+      "clock": "14:00",
+      "saved_at": "2026-11-26 14:02:10",
+      "expiry": "2026-12-01",
+      "atm": "25,800",
+      "lot_size": 65,
+      "compared_to": "2026-11-26 13:46:38",
+      "totals": "This interval  CE BUY 0 / WRITE 19,577   PE BUY 2,018 / WRITE 0  (lots)",
+      "baseline": false,
+      "strikes": [
+        {
+          "label": "ITM2",
+          "strike": "25,700",
+          "call": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "228.80",
+            "dprem": null
+          },
+          "put": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "142.65",
+            "dprem": null
+          }
+        },
+        {
+          "label": "ITM1",
+          "strike": "25,750",
+          "call": {
+            "label": "WRITE",
+            "lots": "+4,508",
+            "prem": "200.70",
+            "dprem": "-44.10"
+          },
+          "put": {
+            "label": "BUY",
+            "lots": "+2,018",
+            "prem": "164.70",
+            "dprem": "+28.15"
+          }
+        },
+        {
+          "label": "ATM",
+          "strike": "25,800",
+          "call": {
+            "label": "WRITE",
+            "lots": "+10,593",
+            "prem": "174.80",
+            "dprem": "-41.90"
+          },
+          "put": {
+            "label": "SHORT COVER",
+            "lots": "-5,579",
+            "prem": "188.80",
+            "dprem": "+31.35"
+          }
+        },
+        {
+          "label": "OTM1",
+          "strike": "25,850",
+          "call": {
+            "label": "WRITE",
+            "lots": "+1,194",
+            "prem": "151.25",
+            "dprem": "-38.20"
+          },
+          "put": {
+            "label": "SHORT COVER",
+            "lots": "-6,418",
+            "prem": "215.55",
+            "dprem": "+35.05"
+          }
+        },
+        {
+          "label": "OTM2",
+          "strike": "25,900",
+          "call": {
+            "label": "WRITE",
+            "lots": "+3,282",
+            "prem": "130.70",
+            "dprem": "-34.30"
+          },
+          "put": {
+            "label": "SHORT COVER",
+            "lots": "-8,720",
+            "prem": "244.25",
+            "dprem": "+38.45"
+          }
+        }
+      ]
+    },
     {
       "day": "2026-11-26",
       "clock": "13:45",
@@ -5397,6 +5490,99 @@
     }
   ],
   "sensex_oi": [
+    {
+      "day": "2026-11-26",
+      "clock": "14:00",
+      "saved_at": "2026-11-26 14:02:44",
+      "expiry": "2026-11-26",
+      "atm": "83,900",
+      "lot_size": 20,
+      "compared_to": "2026-11-26 13:47:58",
+      "totals": "This interval  CE BUY 0 / WRITE 214,374   PE BUY 0 / WRITE 0  (lots)",
+      "baseline": false,
+      "strikes": [
+        {
+          "label": "ITM2",
+          "strike": "83,700",
+          "call": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "213.80",
+            "dprem": null
+          },
+          "put": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "74.70",
+            "dprem": null
+          }
+        },
+        {
+          "label": "ITM1",
+          "strike": "83,800",
+          "call": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "150.75",
+            "dprem": null
+          },
+          "put": {
+            "label": "n/a",
+            "lots": null,
+            "prem": "114.10",
+            "dprem": null
+          }
+        },
+        {
+          "label": "ATM",
+          "strike": "83,900",
+          "call": {
+            "label": "WRITE",
+            "lots": "+72,585",
+            "prem": "100.85",
+            "dprem": "-177.15"
+          },
+          "put": {
+            "label": "SHORT COVER",
+            "lots": "-56,992",
+            "prem": "165.80",
+            "dprem": "+112.25"
+          }
+        },
+        {
+          "label": "OTM1",
+          "strike": "84,000",
+          "call": {
+            "label": "WRITE",
+            "lots": "+114,092",
+            "prem": "66.40",
+            "dprem": "-137.35"
+          },
+          "put": {
+            "label": "SHORT COVER",
+            "lots": "-144,609",
+            "prem": "230.60",
+            "dprem": "+148.55"
+          }
+        },
+        {
+          "label": "OTM2",
+          "strike": "84,100",
+          "call": {
+            "label": "WRITE",
+            "lots": "+27,697",
+            "prem": "42.55",
+            "dprem": "-101.10"
+          },
+          "put": {
+            "label": "SHORT COVER",
+            "lots": "-86,107",
+            "prem": "306.15",
+            "dprem": "+185.90"
+          }
+        }
+      ]
+    },
     {
       "day": "2026-11-26",
       "clock": "13:45",
@@ -12596,37 +12782,47 @@
     ]
   },
   "paper_decision": {
-    "day": "2026-11-25",
-    "checked_at": "2026-11-25 14:15:45",
+    "day": "2026-11-26",
+    "checked_at": "2026-11-26 14:00:56",
     "scripts": [
       {
+        "script": "BANKNIFTY",
+        "spot": 63370.2,
+        "pcr": 0.9328,
+        "rank": 0.5593,
+        "tier": "",
+        "side": "",
+        "expiry": "2026-12-29",
+        "reason": "BankNifty 55.9% is outside base 20/80 and filler 30/70."
+      },
+      {
         "script": "SENSEX",
-        "spot": 83859.46,
-        "pcr": 0.7149,
-        "rank": 0.322,
+        "spot": 83872.53,
+        "pcr": 0.9657,
+        "rank": 0.4915,
         "tier": "",
         "side": "",
         "expiry": "2026-11-26",
-        "reason": "Sensex 32.2% is outside base 20/80 and filler 30/70."
+        "reason": "Sensex 49.1% is outside base 20/80 and filler 30/70."
       },
       {
         "script": "NIFTY",
-        "spot": 25757.0,
-        "pcr": 0.7854,
-        "rank": 0.4576,
+        "spot": 25782.55,
+        "pcr": 0.9749,
+        "rank": 0.661,
         "tier": "",
         "side": "",
         "expiry": "2026-12-01",
-        "reason": "Nifty 45.8% is outside base 10/90 and filler 30/70."
+        "reason": "Nifty 66.1% is outside base 10/90 and filler 30/70."
       }
     ],
     "synthetic": {
       "taken": false,
-      "summary": "No position. Sensex 32.2% is outside base 20/80 and filler 30/70. Nifty 45.8% is outside base 10/90 and filler 30/70."
+      "summary": "No position. BankNifty 55.9% is outside base 20/80 and filler 30/70. Sensex 49.1% is outside base 20/80 and filler 30/70. Nifty 66.1% is outside base 10/90 and filler 30/70."
     },
     "option_buy": {
       "taken": false,
-      "summary": "No position. Sensex 32.2% is outside base 20/80 and filler 30/70. Nifty 45.8% is outside base 10/90 and filler 30/70."
+      "summary": "No position. BankNifty 55.9% is outside base 20/80 and filler 30/70. Sensex 49.1% is outside base 20/80 and filler 30/70. Nifty 66.1% is outside base 10/90 and filler 30/70."
     }
   },
   "fut_days": [
