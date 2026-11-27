@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27 09:57 IST",
+  "generated_at": "2026-11-27 10:01 IST",
   "nifty_oi": [
     {
       "day": "2026-11-27",
@@ -15866,6 +15866,18 @@
   "nifty_fut": [
     {
       "day": "2026-11-27",
+      "clock": "10:00",
+      "saved_at": "2026-11-27 10:01:14",
+      "contract": "NIFTY29DEC26FUT",
+      "expiry": "2026-12-29",
+      "label": "NEW SELLING",
+      "lots": "154 lots",
+      "since": "2026-11-27 09:45:54",
+      "price": "Price 25,953.30 \u2192 25,925.00  (-28.30)",
+      "oi": "Open interest 193,204 \u2192 193,358 lots"
+    },
+    {
+      "day": "2026-11-27",
       "clock": "09:45",
       "saved_at": "2026-11-27 09:45:54",
       "contract": "NIFTY29DEC26FUT",
@@ -16622,6 +16634,18 @@
     }
   ],
   "sensex_fut": [
+    {
+      "day": "2026-11-27",
+      "clock": "10:00",
+      "saved_at": "2026-11-27 10:01:14",
+      "contract": "SENSEX26DECFUT",
+      "expiry": "2026-12-31",
+      "label": "LONG EXIT",
+      "lots": "4 lots",
+      "since": "2026-11-27 09:45:55",
+      "price": "Price 84,620.00 \u2192 84,498.75  (-121.25)",
+      "oi": "Open interest 1,700 \u2192 1,696 lots"
+    },
     {
       "day": "2026-11-27",
       "clock": "09:45",
@@ -17995,32 +18019,5 @@
       "summary": "No position. BankNifty 50.8% is outside base 20/80 and filler 30/70. Sensex 49.1% is outside base 20/80 and filler 30/70. Nifty 66.1% is outside base 10/90 and filler 30/70."
     }
   },
-  "fut_days": [
-    {
-      "name": "NIFTY",
-      "day": "2026-11-26",
-      "label": "LONG BUILDUP",
-      "lines": [
-        "NIFTY FUT DAY \u2014 26 Nov 2026 15:31",
-        "NIFTY29DEC26FUT  expiry 2026-12-29",
-        "2026-11-26 09:31:17 \u2192 2026-11-26 15:31:16  LONG BUILDUP",
-        "Lots 185,714 \u2192 196,506  (+10,792, +5.81%)",
-        "Price 25,934.00 \u2192 26,030.00  (+96.00)",
-        "Whole session. Futures price and futures open interest."
-      ]
-    },
-    {
-      "name": "SENSEX",
-      "day": "2026-11-26",
-      "label": "SHORT COVERING",
-      "lines": [
-        "SENSEX FUT DAY \u2014 26 Nov 2026 15:31",
-        "SENSEX26NOVFUT  expiry 2026-11-26",
-        "2026-11-26 09:31:18 \u2192 2026-11-26 15:31:16  SHORT COVERING",
-        "Lots 1,295 \u2192 923  (-372, -28.73%)",
-        "Price 84,149.80 \u2192 84,350.00  (+200.20)",
-        "Whole session. Futures price and futures open interest."
-      ]
-    }
-  ]
+  "fut_days": []
 }
