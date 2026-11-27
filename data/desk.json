@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27 14:33 IST",
+  "generated_at": "2026-11-27 14:46 IST",
   "nifty_oi": [
     {
       "day": "2026-11-27",
@@ -19400,6 +19400,18 @@
   "nifty_fut": [
     {
       "day": "2026-11-27",
+      "clock": "14:45",
+      "saved_at": "2026-11-27 14:46:01",
+      "contract": "NIFTY29DEC26FUT",
+      "expiry": "2026-12-29",
+      "label": "NEW SELLING",
+      "lots": "197 lots",
+      "since": "2026-11-27 14:31:08",
+      "price": "Price 25,775.00 \u2192 25,740.00  (-35.00)",
+      "oi": "Open interest 193,336 \u2192 193,533 lots"
+    },
+    {
+      "day": "2026-11-27",
       "clock": "14:30",
       "saved_at": "2026-11-27 14:31:08",
       "contract": "NIFTY29DEC26FUT",
@@ -20384,6 +20396,18 @@
     }
   ],
   "sensex_fut": [
+    {
+      "day": "2026-11-27",
+      "clock": "14:45",
+      "saved_at": "2026-11-27 14:46:02",
+      "contract": "SENSEX26DECFUT",
+      "expiry": "2026-12-31",
+      "label": "PRICE DOWN",
+      "lots": "0 lots",
+      "since": "2026-11-27 14:31:08",
+      "price": "Price 84,067.50 \u2192 83,911.90  (-155.60)",
+      "oi": "Open interest 1,695 \u2192 1,695 lots"
+    },
     {
       "day": "2026-11-27",
       "clock": "14:30",
@@ -21943,46 +21967,46 @@
   },
   "paper_decision": {
     "day": "2026-11-27",
-    "checked_at": "2026-11-27 14:24:51",
+    "checked_at": "2026-11-27 14:15:43",
     "scripts": [
       {
         "script": "BANKNIFTY",
-        "spot": 63208.0,
-        "pcr": 1.0193,
-        "rank": 0.6441,
+        "spot": 63245.15,
+        "pcr": 1.0166,
+        "rank": 0.6271,
         "tier": "",
         "side": "",
         "expiry": "2026-12-29",
-        "reason": "BankNifty 64.4% is outside base 20/80 and filler 30/70."
+        "reason": "BankNifty 62.7% is outside base 20/80 and filler 30/70."
       },
       {
         "script": "SENSEX",
-        "spot": 83529.27,
-        "pcr": 0.8671,
-        "rank": 0.4407,
+        "spot": 83609.56,
+        "pcr": 0.7652,
+        "rank": 0.339,
         "tier": "",
         "side": "",
         "expiry": "2026-12-03",
-        "reason": "Sensex 44.1% is outside base 20/80 and filler 30/70."
+        "reason": "Sensex 33.9% is outside base 20/80 and filler 30/70."
       },
       {
         "script": "NIFTY",
-        "spot": 25661.45,
-        "pcr": 0.8706,
-        "rank": 0.5593,
+        "spot": 25679.1,
+        "pcr": 0.6779,
+        "rank": 0.3729,
         "tier": "",
         "side": "",
         "expiry": "2026-12-01",
-        "reason": "Nifty 55.9% is outside base 10/90 and filler 30/70."
+        "reason": "Nifty 37.3% is outside base 10/90 and filler 30/70."
       }
     ],
     "synthetic": {
       "taken": false,
-      "summary": "No position. BankNifty 64.4% is outside base 20/80 and filler 30/70. Sensex 44.1% is outside base 20/80 and filler 30/70. Nifty 55.9% is outside base 10/90 and filler 30/70."
+      "summary": "No position. BankNifty 62.7% is outside base 20/80 and filler 30/70. Sensex 33.9% is outside base 20/80 and filler 30/70. Nifty 37.3% is outside base 10/90 and filler 30/70."
     },
     "option_buy": {
       "taken": false,
-      "summary": "No position. BankNifty 64.4% is outside base 20/80 and filler 30/70. Sensex 44.1% is outside base 20/80 and filler 30/70. Nifty 55.9% is outside base 10/90 and filler 30/70."
+      "summary": "No position. BankNifty 62.7% is outside base 20/80 and filler 30/70. Sensex 33.9% is outside base 20/80 and filler 30/70. Nifty 37.3% is outside base 10/90 and filler 30/70."
     }
   },
   "fut_days": []
