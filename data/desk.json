@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27 23:47 IST",
+  "generated_at": "2026-11-28 00:34 IST",
   "nifty_oi": [
     {
       "day": "2026-11-27",
@@ -2426,88 +2426,88 @@
       "expiry": "2026-12-01",
       "atm": "25,850",
       "lot_size": 65,
-      "compared_to": "2026-11-26 15:47:10",
-      "totals": "This interval  CE BUY 0 / WRITE 256,874   PE BUY 179,307 / WRITE 0  (lots)",
-      "baseline": false,
+      "compared_to": null,
+      "totals": "This interval  CE BUY 0 / WRITE 0   PE BUY 0 / WRITE 0  (lots)",
+      "baseline": true,
       "strikes": [
         {
           "label": "ITM2",
           "strike": "25,750",
           "call": {
-            "label": "WRITE",
-            "lots": "+12,497",
+            "label": "n/a",
+            "lots": null,
             "prem": "225.75",
-            "dprem": "-58.50"
+            "dprem": null
           },
           "put": {
-            "label": "BUY",
-            "lots": "+21,620",
+            "label": "n/a",
+            "lots": null,
             "prem": "127.30",
-            "dprem": "+26.45"
+            "dprem": null
           }
         },
         {
           "label": "ITM1",
           "strike": "25,800",
           "call": {
-            "label": "WRITE",
-            "lots": "+61,816",
+            "label": "n/a",
+            "lots": null,
             "prem": "196.55",
-            "dprem": "-57.55"
+            "dprem": null
           },
           "put": {
-            "label": "BUY",
-            "lots": "+82,468",
+            "label": "n/a",
+            "lots": null,
             "prem": "149.10",
-            "dprem": "+30.85"
+            "dprem": null
           }
         },
         {
           "label": "ATM",
           "strike": "25,850",
           "call": {
-            "label": "WRITE",
-            "lots": "+73,117",
+            "label": "n/a",
+            "lots": null,
             "prem": "170.40",
-            "dprem": "-52.15"
+            "dprem": null
           },
           "put": {
-            "label": "BUY",
-            "lots": "+59,572",
+            "label": "n/a",
+            "lots": null,
             "prem": "172.00",
-            "dprem": "+34.40"
+            "dprem": null
           }
         },
         {
           "label": "OTM1",
           "strike": "25,900",
           "call": {
-            "label": "WRITE",
-            "lots": "+79,191",
+            "label": "n/a",
+            "lots": null,
             "prem": "146.90",
-            "dprem": "-48.95"
+            "dprem": null
           },
           "put": {
-            "label": "BUY",
-            "lots": "+9,766",
+            "label": "n/a",
+            "lots": null,
             "prem": "198.55",
-            "dprem": "+39.25"
+            "dprem": null
           }
         },
         {
           "label": "OTM2",
           "strike": "25,950",
           "call": {
-            "label": "WRITE",
-            "lots": "+30,253",
+            "label": "n/a",
+            "lots": null,
             "prem": "124.90",
-            "dprem": "-43.60"
+            "dprem": null
           },
           "put": {
-            "label": "BUY",
-            "lots": "+5,881",
+            "label": "n/a",
+            "lots": null,
             "prem": "227.70",
-            "dprem": "+43.90"
+            "dprem": null
           }
         }
       ]
@@ -20808,11 +20808,11 @@
       "saved_at": "2026-11-27 09:31:16",
       "contract": "NIFTY29DEC26FUT",
       "expiry": "2026-12-29",
-      "label": "LONG EXIT",
-      "lots": "3,732 lots",
-      "since": "2026-11-26 15:31:16",
-      "price": "Price 26,030.00 \u2192 25,912.70  (-117.30)",
-      "oi": "Open interest 196,506 \u2192 192,774 lots"
+      "label": "BASELINE",
+      "lots": null,
+      "since": null,
+      "price": "Price 25,912.70",
+      "oi": "Open interest 192,774 lots"
     },
     {
       "day": "2026-11-26",
@@ -21842,11 +21842,11 @@
       "saved_at": "2026-11-27 09:31:17",
       "contract": "SENSEX26DECFUT",
       "expiry": "2026-12-31",
-      "label": "NEW BUYING",
-      "lots": "775 lots",
-      "since": "2026-11-26 15:31:16",
-      "price": "Price 84,350.00 \u2192 84,493.90  (+143.90)",
-      "oi": "Open interest 923 \u2192 1,698 lots"
+      "label": "BASELINE",
+      "lots": null,
+      "since": null,
+      "price": "Price 84,493.90",
+      "oi": "Open interest 1,698 lots"
     },
     {
       "day": "2026-11-26",
